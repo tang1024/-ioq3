@@ -1,0 +1,26 @@
+var structgraphicsoptions__t =
+[
+    [ "allow_extensions", "d6/d06/structgraphicsoptions__t.html#a8efcc1f7f71eacedc2ecff9b8654fc1e", null ],
+    [ "apply", "d6/d06/structgraphicsoptions__t.html#ace54ee83eda990cff62051a2d141501a", null ],
+    [ "back", "d6/d06/structgraphicsoptions__t.html#a98c88e47e8f7217425b42b52d09d1993", null ],
+    [ "banner", "d6/d06/structgraphicsoptions__t.html#ad951c09c7e7b6deaf03fe6c70dfc0a9e", null ],
+    [ "colordepth", "d6/d06/structgraphicsoptions__t.html#a1e7265731af9297d3477b831a1172141", null ],
+    [ "display", "d6/d06/structgraphicsoptions__t.html#af53eda3fb3a41c36ed7ce38bdd8929ae", null ],
+    [ "driver", "d6/d06/structgraphicsoptions__t.html#a81c1568cfe9b9154bfc3ec4a1058e38d", null ],
+    [ "driverinfo", "d6/d06/structgraphicsoptions__t.html#a9f8fe95ac886c78d19aad77e91368edd", null ],
+    [ "filter", "d6/d06/structgraphicsoptions__t.html#a965bd8fb134a4869f2d296ea1285c3c5", null ],
+    [ "framel", "d6/d06/structgraphicsoptions__t.html#a939622b5705e93845eb42cff1b25fb3b", null ],
+    [ "framer", "d6/d06/structgraphicsoptions__t.html#aafedce2f0158fbf5591de6d5c9a548db", null ],
+    [ "fs", "d6/d06/structgraphicsoptions__t.html#aca28c93e76aac4a4de9fde22904bd948", null ],
+    [ "geometry", "d6/d06/structgraphicsoptions__t.html#a8a811882cdd3c468a97b6236e188d31c", null ],
+    [ "graphics", "d6/d06/structgraphicsoptions__t.html#a0aff40d80adc8496c16b591e45499b16", null ],
+    [ "lighting", "d6/d06/structgraphicsoptions__t.html#a479365b9883d2f0272e3ee50c632b3f6", null ],
+    [ "list", "d6/d06/structgraphicsoptions__t.html#a4f4b3cbfdd62e48645f0fd6a3927f277", null ],
+    [ "menu", "d6/d06/structgraphicsoptions__t.html#a6a4857f7068ac91d024b50176d1829ba", null ],
+    [ "mode", "d6/d06/structgraphicsoptions__t.html#aee900cf79957c9dc340323af514b083a", null ],
+    [ "network", "d6/d06/structgraphicsoptions__t.html#a972c90547f5c80421c2e0648f4ba8463", null ],
+    [ "ratio", "d6/d06/structgraphicsoptions__t.html#aa0a8a6cfcb16446cb1a55d867af716ab", null ],
+    [ "sound", "d6/d06/structgraphicsoptions__t.html#a7eafaa04ea6933650bd27f3000a0d36f", null ],
+    [ "texturebits", "d6/d06/structgraphicsoptions__t.html#a9e0613d53d135c43880deea837a93c3a", null ],
+    [ "tq", "d6/d06/structgraphicsoptions__t.html#a74b24ffba8dd3944f3c67ce47f4de996", null ]
+];

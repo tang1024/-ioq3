@@ -1,0 +1,27 @@
+var ai__team_8c =
+[
+    [ "bot_ctftaskpreference_s", "db/d13/structbot__ctftaskpreference__s.html", "db/d13/structbot__ctftaskpreference__s" ],
+    [ "bot_ctftaskpreference_t", "d6/d4c/ai__team_8c.html#afc730b3af5688bb92c33ba26eebc0a7d", null ],
+    [ "BotClientTravelTimeToGoal", "d6/d4c/ai__team_8c.html#a2dcdd300475aa40d32b2e3a2f3e5d558", null ],
+    [ "BotCreateGroup", "d6/d4c/ai__team_8c.html#a95cd3621c20112768faed4f5237feacb", null ],
+    [ "BotCTFOrders", "d6/d4c/ai__team_8c.html#ac4359b709994093cb73ce5bab1dd5d3a", null ],
+    [ "BotCTFOrders_BothFlagsAtBase", "d6/d4c/ai__team_8c.html#aced8837eb92f9a3b0b4eff542dfd78a7", null ],
+    [ "BotCTFOrders_BothFlagsNotAtBase", "d6/d4c/ai__team_8c.html#a74766d9a63d0006fb661a946f4f0a698", null ],
+    [ "BotCTFOrders_EnemyFlagNotAtBase", "d6/d4c/ai__team_8c.html#a8f1628664b2a664630c31877bd9a33a7", null ],
+    [ "BotCTFOrders_FlagNotAtBase", "d6/d4c/ai__team_8c.html#a7e07a8226ca3b68999f99e494e2084fc", null ],
+    [ "BotGetTeamMateTaskPreference", "d6/d4c/ai__team_8c.html#a5f001ceece15748f424e6f59a4e96c87", null ],
+    [ "BotNumTeamMates", "d6/d4c/ai__team_8c.html#acde6e8891d7fbea972bb54467ddbfa9a", null ],
+    [ "BotSayTeamOrder", "d6/d4c/ai__team_8c.html#a1abba000e91f49bf5813dfed500447f8", null ],
+    [ "BotSayTeamOrderAlways", "d6/d4c/ai__team_8c.html#a9a9ca491592db916d116011b063f58a8", null ],
+    [ "BotSayVoiceTeamOrder", "d6/d4c/ai__team_8c.html#a2d7dc48a4f7a042924ab88fdc219d4dd", null ],
+    [ "BotSetTeamMateTaskPreference", "d6/d4c/ai__team_8c.html#a1f152506b646a8b8b99a225c05aa69fd", null ],
+    [ "BotSortTeamMatesByBaseTravelTime", "d6/d4c/ai__team_8c.html#a0cb4b18b53df036074a958b48a08cf1c", null ],
+    [ "BotSortTeamMatesByTaskPreference", "d6/d4c/ai__team_8c.html#aa1d0f7ee7494600bcf6aff7950c731f4", null ],
+    [ "BotTeamAI", "d6/d4c/ai__team_8c.html#a5db5577bca2cc3ad6b2763f240fce84e", null ],
+    [ "BotTeamOrders", "d6/d4c/ai__team_8c.html#ae422c6d775145527f848574c5b107d9e", null ],
+    [ "BotValidTeamLeader", "d6/d4c/ai__team_8c.html#a7beef4714266358ba2be1b80c23db864", null ],
+    [ "BotVoiceChat", "d6/d4c/ai__team_8c.html#a2f18c32ad10c21017c69751bf14f1481", null ],
+    [ "BotVoiceChatOnly", "d6/d4c/ai__team_8c.html#a6c0e429f15fa19d5ab9c2879810977d8", null ],
+    [ "FindHumanTeamLeader", "d6/d4c/ai__team_8c.html#a3a237f7cabbffced3673c05338e68e30", null ],
+    [ "ctftaskpreferences", "d6/d4c/ai__team_8c.html#a3500a76d9141c628356bfd8af37cd829", null ]
+];

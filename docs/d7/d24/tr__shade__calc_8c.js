@@ -1,0 +1,27 @@
+var tr__shade__calc_8c =
+[
+    [ "WAVEVALUE", "d7/d24/tr__shade__calc_8c.html#aa754ee14909b3c798f82c2b95f43f7da", null ],
+    [ "Autosprite2Deform", "d7/d24/tr__shade__calc_8c.html#ac0803e40fbd05c3fdfa5cac575d044dd", null ],
+    [ "AutospriteDeform", "d7/d24/tr__shade__calc_8c.html#aa8fc9810c31182fe83d2ce4c2fa05ed7", null ],
+    [ "DeformText", "d7/d24/tr__shade__calc_8c.html#a5c1cc40ad6359de0a5b8942c394e0263", null ],
+    [ "EvalWaveForm", "d7/d24/tr__shade__calc_8c.html#aadb8a1524d132cfd439703b18e405816", null ],
+    [ "EvalWaveFormClamped", "d7/d24/tr__shade__calc_8c.html#a74ac559c6ca2662b6167697d92499cc2", null ],
+    [ "GlobalVectorToLocal", "d7/d24/tr__shade__calc_8c.html#ad129570d81e449fb912fb4aede32899f", null ],
+    [ "RB_CalcBulgeVertexes", "d7/d24/tr__shade__calc_8c.html#a631f5ce5b29c22fab429dfc0dadfb3e9", null ],
+    [ "RB_CalcDeformNormals", "d7/d24/tr__shade__calc_8c.html#a489ce716e66b242ab046a572c4245425", null ],
+    [ "RB_CalcDeformVertexes", "d7/d24/tr__shade__calc_8c.html#a8fc0e0c70826d2b6bc059925af603038", null ],
+    [ "RB_CalcFogTexCoords", "d7/d24/tr__shade__calc_8c.html#a8ceb06a91da65677dee497a93c11c2e0", null ],
+    [ "RB_CalcModulateColorsByFog", "d7/d24/tr__shade__calc_8c.html#a55946ed1f8c1a4bec3bd6054ccb00c0f", null ],
+    [ "RB_CalcMoveVertexes", "d7/d24/tr__shade__calc_8c.html#a8a744a6f6c3f308bbfa700d9f243af7a", null ],
+    [ "RB_CalcRotateTexMatrix", "d7/d24/tr__shade__calc_8c.html#afb86aad6283a635b8fd09af27f6c571e", null ],
+    [ "RB_CalcScaleTexMatrix", "d7/d24/tr__shade__calc_8c.html#a89ce34a01567191e0df7f319ab792bfb", null ],
+    [ "RB_CalcScrollTexMatrix", "d7/d24/tr__shade__calc_8c.html#a483390a2a105584c76d5572595acade5", null ],
+    [ "RB_CalcStretchTexMatrix", "d7/d24/tr__shade__calc_8c.html#ad1752963a225e08a18806dfa0ab5f59f", null ],
+    [ "RB_CalcTransformTexMatrix", "d7/d24/tr__shade__calc_8c.html#a8b7b6f99e087012e9968e846133ec803", null ],
+    [ "RB_CalcTurbulentFactors", "d7/d24/tr__shade__calc_8c.html#abab8f32d25b9df97f83e4387f74df6c1", null ],
+    [ "RB_CalcWaveAlphaSingle", "d7/d24/tr__shade__calc_8c.html#a67c3ac1de2b91163d450a72532a10720", null ],
+    [ "RB_CalcWaveColorSingle", "d7/d24/tr__shade__calc_8c.html#a90fd5ef1de34f997c37f5fff42edd272", null ],
+    [ "RB_DeformTessGeometry", "d7/d24/tr__shade__calc_8c.html#ae147b2e2bb9f22c6ff5e7ece8f3a2ed1", null ],
+    [ "TableForFunc", "d7/d24/tr__shade__calc_8c.html#acf1b0c95bd2b142db7f5ab96841fd6bd", null ],
+    [ "edgeVerts", "d7/d24/tr__shade__calc_8c.html#ad24867bc805680c93ec89d4c8aa79120", null ]
+];

@@ -1,0 +1,26 @@
+var structback_end_counters__t =
+[
+    [ "c_dlightDraws", "d9/d9e/structback_end_counters__t.html#a4586cb5bcab782078020645535b27388", null ],
+    [ "c_dlightIndexes", "d9/d9e/structback_end_counters__t.html#a69749f3b26decb663b087f779d8d73be", null ],
+    [ "c_dlightVertexes", "d9/d9e/structback_end_counters__t.html#ab079692f14ff93efe87780e71294977d", null ],
+    [ "c_dynamicVaoDraws", "d9/d9e/structback_end_counters__t.html#ade5011090e0c49453426ba95ca8bd7ad", null ],
+    [ "c_flareAdds", "d9/d9e/structback_end_counters__t.html#a6804ea7e0c6784572bc77b99b211c0e4", null ],
+    [ "c_flareRenders", "d9/d9e/structback_end_counters__t.html#a5327fa3acf8513cf91013697e775e256", null ],
+    [ "c_flareTests", "d9/d9e/structback_end_counters__t.html#a4d7647bc57f981e06ec7c63d1ef44684", null ],
+    [ "c_fogDraws", "d9/d9e/structback_end_counters__t.html#a662690416c3ae95afb58911bc145d197", null ],
+    [ "c_genericDraws", "d9/d9e/structback_end_counters__t.html#aba82fe142831b13a934fc377388e819c", null ],
+    [ "c_glslShaderBinds", "d9/d9e/structback_end_counters__t.html#a25339162cd3c1e8338f4559bcfcffed0", null ],
+    [ "c_indexes", "d9/d9e/structback_end_counters__t.html#a59e1dfba6b4e887e0b23066c6702d334", null ],
+    [ "c_lightallDraws", "d9/d9e/structback_end_counters__t.html#a3a8344ab389bef1277edf7bc6fc4ff6d", null ],
+    [ "c_overDraw", "d9/d9e/structback_end_counters__t.html#ad426e9558afff8f194de08b104fca39c", null ],
+    [ "c_shaders", "d9/d9e/structback_end_counters__t.html#aef95d2afa880f0cde90c233715b39d34", null ],
+    [ "c_staticVaoDraws", "d9/d9e/structback_end_counters__t.html#abc7f8a9b4fceecc96eb9c5b4180f9419", null ],
+    [ "c_surfaces", "d9/d9e/structback_end_counters__t.html#a346533d1a5396fcef42bc4c6e1972232", null ],
+    [ "c_surfBatches", "d9/d9e/structback_end_counters__t.html#a0f5cc4d8e6c8ce2a091c5a4ad315f9b1", null ],
+    [ "c_totalIndexes", "d9/d9e/structback_end_counters__t.html#a18a3046a55b8a3a91881ec4444c0f89d", null ],
+    [ "c_vaoBinds", "d9/d9e/structback_end_counters__t.html#aac232825d33c2a33448bbf58ba123de1", null ],
+    [ "c_vaoIndexes", "d9/d9e/structback_end_counters__t.html#a925b5021fd9ee79328be9833c242f816", null ],
+    [ "c_vaoVertexes", "d9/d9e/structback_end_counters__t.html#aaa3455a82e76c560adc65bacf7aa6ba8", null ],
+    [ "c_vertexes", "d9/d9e/structback_end_counters__t.html#a439ed1b215ccd9a0cd1ae13c24569f4c", null ],
+    [ "msec", "d9/d9e/structback_end_counters__t.html#a508c9f89ab821ebbf8f8647cf72d9a78", null ]
+];

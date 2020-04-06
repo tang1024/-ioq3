@@ -1,0 +1,25 @@
+var huffman_8c =
+[
+    [ "add_bit", "da/d71/huffman_8c.html#a2302528320a9ff34192a64287f5d393c", null ],
+    [ "free_ppnode", "da/d71/huffman_8c.html#ae3d42ab1498e5d5a7e455067954853c8", null ],
+    [ "get_bit", "da/d71/huffman_8c.html#a3c52c09b2b2615f5e9fa6ab95543c892", null ],
+    [ "get_ppnode", "da/d71/huffman_8c.html#aa91c6813e3f0a6935a213769f70a0e7a", null ],
+    [ "Huff_addRef", "da/d71/huffman_8c.html#a6e8de605184b88f07cc233ff8ecc8db5", null ],
+    [ "Huff_Compress", "da/d71/huffman_8c.html#a20486f526c644f80a185ced9646e0889", null ],
+    [ "Huff_Decompress", "da/d71/huffman_8c.html#a8caa6c119221fdf48f997a70e338edfe", null ],
+    [ "Huff_getBit", "da/d71/huffman_8c.html#aa5364a6c75392970248349e4802f607d", null ],
+    [ "Huff_getBloc", "da/d71/huffman_8c.html#aa817af7de6579efabcc93737bfa7d809", null ],
+    [ "Huff_Init", "da/d71/huffman_8c.html#aeb6f75982586e6a02e0f27f91ac2e3a2", null ],
+    [ "Huff_offsetReceive", "da/d71/huffman_8c.html#a42677fb50b8db4cc5ad1c1dd4ca0ceb1", null ],
+    [ "Huff_offsetTransmit", "da/d71/huffman_8c.html#a40ca0e285385113b5b32fb3e8a778e48", null ],
+    [ "Huff_putBit", "da/d71/huffman_8c.html#ae1efaecdbb8c3a197540ccc27b2501f0", null ],
+    [ "Huff_Receive", "da/d71/huffman_8c.html#a3e730221edd7e9073098d2c6f55b0e28", null ],
+    [ "Huff_setBloc", "da/d71/huffman_8c.html#a873c812023f2e9dfbe6ab48e7c521d69", null ],
+    [ "Huff_transmit", "da/d71/huffman_8c.html#a02c21687eaae581d07c6e541baa39ead", null ],
+    [ "increment", "da/d71/huffman_8c.html#afecb874e40d3f08d872d4fda3de10282", null ],
+    [ "send", "da/d71/huffman_8c.html#a7b252595f4668f0d33b0d1aad2b3733d", null ],
+    [ "swap", "da/d71/huffman_8c.html#a0f321362579fec8bf307e7e785dc60dd", null ],
+    [ "swaplist", "da/d71/huffman_8c.html#af1c92d8a6d2bd07924b3ad51bd5001b7", null ],
+    [ "bloc", "da/d71/huffman_8c.html#a5ea63ca8dd419c39744fdada033b1aaa", null ],
+    [ "oldsize", "da/d71/huffman_8c.html#a187f36add6d8347e2adb4aeead018d59", null ]
+];

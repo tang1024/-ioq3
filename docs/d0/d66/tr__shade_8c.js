@@ -1,0 +1,25 @@
+var tr__shade_8c =
+[
+    [ "ComputeDeformValues", "d0/d66/tr__shade_8c.html#a9fbc6cd6deb0d7d2809843031c2d0535", null ],
+    [ "ComputeFogColorMask", "d0/d66/tr__shade_8c.html#aca1e345e566f4678021320991d79bcf7", null ],
+    [ "ComputeFogValues", "d0/d66/tr__shade_8c.html#a7c7b3ad14fd8bb13e3e02ce16beb4766", null ],
+    [ "ComputeShaderColors", "d0/d66/tr__shade_8c.html#a62fbbfdd5b9995caf10ae4367c00e70e", null ],
+    [ "ComputeTexMods", "d0/d66/tr__shade_8c.html#ac95ce9cb8537db0de473dea42d274056", null ],
+    [ "DrawNormals", "d0/d66/tr__shade_8c.html#aeff023ba13c829245b5ad3e6f7265951", null ],
+    [ "DrawTris", "d0/d66/tr__shade_8c.html#a530a14f23c4182a27770e439a025513c", null ],
+    [ "EvalWaveForm", "d0/d66/tr__shade_8c.html#a67c781493f6955340291586c27f5e45b", null ],
+    [ "EvalWaveFormClamped", "d0/d66/tr__shade_8c.html#ae99f481e71e1bc916ae2c3f2d4b94346", null ],
+    [ "ForwardDlight", "d0/d66/tr__shade_8c.html#aebd1277448342f710fc7f98b35778493", null ],
+    [ "ProjectDlightTexture", "d0/d66/tr__shade_8c.html#a77f519d4a3b68a5e71f7f44999e3aa9b", null ],
+    [ "ProjectPshadowVBOGLSL", "d0/d66/tr__shade_8c.html#a720dec4363485892411d9df5ed0ea6db", null ],
+    [ "R_BindAnimatedImageToTMU", "d0/d66/tr__shade_8c.html#ade7a98097c85c972b121533f9c93fbc9", null ],
+    [ "R_DrawElements", "d0/d66/tr__shade_8c.html#abd2e143a473513fe5a2f42d200729506", null ],
+    [ "RB_BeginSurface", "d0/d66/tr__shade_8c.html#add4fdce5338acf8d16e4126fcde34c54", null ],
+    [ "RB_CalcShaderVertexAttribs", "d0/d66/tr__shade_8c.html#a31a35a02f35675125a5bd9d9be796ed4", null ],
+    [ "RB_EndSurface", "d0/d66/tr__shade_8c.html#a281b04c20e2de37a39e0cdcd3c53867e", null ],
+    [ "RB_FogPass", "d0/d66/tr__shade_8c.html#a20171ac681e8cad3036d28e8b1a17110", null ],
+    [ "RB_IterateStagesGeneric", "d0/d66/tr__shade_8c.html#a9aa8659211ea7ef5e52dc5796332c4b6", null ],
+    [ "RB_RenderShadowmap", "d0/d66/tr__shade_8c.html#a81de6f786cf045e2f4e252eba4d783fa", null ],
+    [ "RB_StageIteratorGeneric", "d0/d66/tr__shade_8c.html#abc4424e8b066b9fdb3a369fe35d9e1a8", null ],
+    [ "tess", "d0/d66/tr__shade_8c.html#ac5fd622afcb6ecc6963586d541146569", null ]
+];

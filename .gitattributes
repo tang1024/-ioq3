@@ -1,0 +1,36 @@
+# git config --global core.autocrlf false
+# 	false, true, or input
+
+# git config --global core.safecrlf warn
+# 	true or warn
+
+# Sets the line ending type to use in the working directory for files that are marked as text.
+# git config --global core.eol lf
+# 	lf, crlf, or native
+
+*.c eol=lf
+*.cpp eol=lf
+*.h eol=lf
+
+*.py eol=lf
+*.json eol=lf
+
+*.txt eol=lf
+*.md eol=lf
+*.rst eol=lf
+
+*.sh eol=lf
+*.sln eol=crlf
+
+*.yml eol=lf
+
+.gitignore eol=lf
+.gitattributes eol=lf
+LICENSE eol=lf
+
+# Tells git not to attempt any end-of-line conversion upon checkin or checkout.
+*.png -text
+*.jpg -text
+
+*.lib -text
+*.exe -text

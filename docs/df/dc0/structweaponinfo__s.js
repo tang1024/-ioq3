@@ -1,0 +1,27 @@
+var structweaponinfo__s =
+[
+    [ "acceleration", "df/dc0/structweaponinfo__s.html#a0ec7cc2f1a5ba200d95a400a52c272d5", null ],
+    [ "activate", "df/dc0/structweaponinfo__s.html#aea8f8aa3b652132857d6f63b89744e63", null ],
+    [ "ammoamount", "df/dc0/structweaponinfo__s.html#a68466020d2fbc67183269f9302392cf3", null ],
+    [ "ammoindex", "df/dc0/structweaponinfo__s.html#a73a395838606cdced1aa7d451b87c518", null ],
+    [ "angleoffset", "df/dc0/structweaponinfo__s.html#a192d57e0a39e18e3777281de4281f984", null ],
+    [ "extrazvelocity", "df/dc0/structweaponinfo__s.html#a3849be80e7e045b5753e0cea35a1968e", null ],
+    [ "flags", "df/dc0/structweaponinfo__s.html#af959731e68c5dba69a89ea6437541d25", null ],
+    [ "hspread", "df/dc0/structweaponinfo__s.html#abb80edb12bef07c94f95cc9b63027369", null ],
+    [ "level", "df/dc0/structweaponinfo__s.html#a87eebb0fa48fbd252a845393f591c08e", null ],
+    [ "model", "df/dc0/structweaponinfo__s.html#a07cfa71a62cd923efe19e2fcfae5578a", null ],
+    [ "name", "df/dc0/structweaponinfo__s.html#aaa9255d7a579c494d6d5ea191c2d4c5e", null ],
+    [ "number", "df/dc0/structweaponinfo__s.html#aafaefff1016f5f6af068fd50eac6a635", null ],
+    [ "numprojectiles", "df/dc0/structweaponinfo__s.html#a070e69d4dd0f5fc34a9eed3b91b896a5", null ],
+    [ "offset", "df/dc0/structweaponinfo__s.html#aea988d911e33838827cb788ba2565b4b", null ],
+    [ "proj", "df/dc0/structweaponinfo__s.html#a34c1dda05c840833de0bdb43db8630e0", null ],
+    [ "projectile", "df/dc0/structweaponinfo__s.html#a05b07186b5d5787285b1042d5c795139", null ],
+    [ "recoil", "df/dc0/structweaponinfo__s.html#a6e265e74b653be893e036c80f37468bd", null ],
+    [ "reload", "df/dc0/structweaponinfo__s.html#a2a49ff88ddfe50074cb13378c18c8d5a", null ],
+    [ "speed", "df/dc0/structweaponinfo__s.html#a4c8098d920c80907edddd243f2c5f367", null ],
+    [ "spindown", "df/dc0/structweaponinfo__s.html#ad4b25423062ab9bcc7e0934876b65942", null ],
+    [ "spinup", "df/dc0/structweaponinfo__s.html#a521055bdec4b88f80656fb5edb78c1fa", null ],
+    [ "valid", "df/dc0/structweaponinfo__s.html#a83fe7716fef6520e93802595c6e318b9", null ],
+    [ "vspread", "df/dc0/structweaponinfo__s.html#a6e97354d1dc9ec5921717627d9e34327", null ],
+    [ "weaponindex", "df/dc0/structweaponinfo__s.html#a25f77b345d5b3f376c1093de2f622844", null ]
+];

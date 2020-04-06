@@ -1,0 +1,26 @@
+var structaas__entityinfo__s =
+[
+    [ "angles", "d3/d32/structaas__entityinfo__s.html#ab90d3aecb74cd0c355054a8aa872d4d8", null ],
+    [ "event", "d3/d32/structaas__entityinfo__s.html#aa2054766d8086d54bc2a26e556a4f69a", null ],
+    [ "eventParm", "d3/d32/structaas__entityinfo__s.html#a5d55a974dcfd257b9cbfcde526f1ce46", null ],
+    [ "flags", "d3/d32/structaas__entityinfo__s.html#a6d99ee122d401d238c7e69e1b647d74f", null ],
+    [ "frame", "d3/d32/structaas__entityinfo__s.html#ad6cb60c2d801bf4c87a1a1c2459fbe08", null ],
+    [ "groundent", "d3/d32/structaas__entityinfo__s.html#a2f2d3004e1c5f0700504bda512819051", null ],
+    [ "lastvisorigin", "d3/d32/structaas__entityinfo__s.html#aa12cefe5ac6ca0f5370f6d8e39fb5505", null ],
+    [ "legsAnim", "d3/d32/structaas__entityinfo__s.html#af7b97a50bf5bf8ec71b36e796ca4a34e", null ],
+    [ "ltime", "d3/d32/structaas__entityinfo__s.html#a247c485a7c29f1487a79f298161ff299", null ],
+    [ "maxs", "d3/d32/structaas__entityinfo__s.html#ad29d2640faea4c4a0daa3f199ed6dea5", null ],
+    [ "mins", "d3/d32/structaas__entityinfo__s.html#a880937a6c28dae61bd58c7b09ad8a846", null ],
+    [ "modelindex", "d3/d32/structaas__entityinfo__s.html#acae62cdea94cfb3e2d66a463d9c6c416", null ],
+    [ "modelindex2", "d3/d32/structaas__entityinfo__s.html#a15cf5b56aedf751b5596e083ba787166", null ],
+    [ "number", "d3/d32/structaas__entityinfo__s.html#ae94f729a2f9c3e06ad8e21acf1e4bce7", null ],
+    [ "old_origin", "d3/d32/structaas__entityinfo__s.html#adff9e9e4a4657166ec3c86d8e41dcf83", null ],
+    [ "origin", "d3/d32/structaas__entityinfo__s.html#aa1e3689a449d411c48a01012588652c3", null ],
+    [ "powerups", "d3/d32/structaas__entityinfo__s.html#a462ea2ab5b9c52a7c17580f3d94fa7a1", null ],
+    [ "solid", "d3/d32/structaas__entityinfo__s.html#a5d35f325fd3cf795368eeb6a246afe83", null ],
+    [ "torsoAnim", "d3/d32/structaas__entityinfo__s.html#a406a65439b9f18308ac0db9d5698f681", null ],
+    [ "type", "d3/d32/structaas__entityinfo__s.html#a83193a4d5a379b707f6c7ab06b2cfec5", null ],
+    [ "update_time", "d3/d32/structaas__entityinfo__s.html#a02044db870620a9729ffa6be864d1384", null ],
+    [ "valid", "d3/d32/structaas__entityinfo__s.html#a441dc3133b168490c6d689b71def97f2", null ],
+    [ "weapon", "d3/d32/structaas__entityinfo__s.html#added9b46cbeebe149f276897473b4447", null ]
+];
