@@ -121,7 +121,7 @@ var ai__dmq3_8c =
     [ "ctf_blueflag", "df/de2/ai__dmq3_8c.html#a8022103ec239f0535b5af2a7f25a7914", null ],
     [ "ctf_redflag", "df/de2/ai__dmq3_8c.html#ac39ebbe365cb5a0d9daeda0ad2c653ac", null ],
     [ "g_spSkill", "df/de2/ai__dmq3_8c.html#a5dd140bbfa64832034858a42ce8426be", null ],
-    [ "gametype", "df/de2/ai__dmq3_8c.html#af20b4bc8e06bf4be52a8b4222722c45d", null ],
+    [ "gametype", "df/de2/ai__dmq3_8c.html#a05c702b66ffa34183e4bdce22863ea86", null ],
     [ "lastteleport_origin", "df/de2/ai__dmq3_8c.html#a9bc68a04723f0f329ff6cf42996ba50d", null ],
     [ "lastteleport_time", "df/de2/ai__dmq3_8c.html#a9f7a2b2303ad6441ca041c605f71b181", null ],
     [ "max_bspmodelindex", "df/de2/ai__dmq3_8c.html#ab50b67ba71d3674e5777f3853265e70d", null ],

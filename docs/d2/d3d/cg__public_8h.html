@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ioquake3 doxygen: C:/entry/dev/ioquake3/code/cgame/cg_public.h File Reference</title>
+<title>ioquake3 doxygen: C:/entry/dev/ioq3/code/cgame/cg_public.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -360,10 +360,10 @@ Enumerations</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d3d/cg__public_8h_source.html#l00056">56</a> of file <a class="el" href="../../d2/d3d/cg__public_8h_source.html">cg_public.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;     {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="../../d2/d3d/cg__public_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ac79b8f8cc20517953ba661b723772c6c">CGAME_EVENT_NONE</a>,</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <a class="code" href="../../d2/d3d/cg__public_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a6d3b35470d99299a0f4e37746c830916">CGAME_EVENT_TEAMMENU</a>,</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <a class="code" href="../../d2/d3d/cg__public_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a870f1317410e3ceeeb602e338bb03161">CGAME_EVENT_SCOREBOARD</a>,</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <a class="code" href="../../d2/d3d/cg__public_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ab67102e741033ffe7b42d692c7624f27">CGAME_EVENT_EDITHUD</a></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ac79b8f8cc20517953ba661b723772c6c">CGAME_EVENT_NONE</a>,</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a6d3b35470d99299a0f4e37746c830916">CGAME_EVENT_TEAMMENU</a>,</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#adf764cbdea00d65edcd07bb9953ad2b7a870f1317410e3ceeeb602e338bb03161">CGAME_EVENT_SCOREBOARD</a>,</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#adf764cbdea00d65edcd07bb9953ad2b7ab67102e741033ffe7b42d692c7624f27">CGAME_EVENT_EDITHUD</a></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;};</div>
 </div><!-- fragment -->
 </div>
@@ -394,43 +394,43 @@ Enumerations</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d2/d3d/cg__public_8h_source.html#l00197">197</a> of file <a class="el" href="../../d2/d3d/cg__public_8h_source.html">cg_public.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;             {</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0ac208b6a5c256d09fe6aec6cc43218fb7">CG_INIT</a>,</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="comment">//  void CG_Init( int serverMessageNum, int serverCommandSequence, int clientNum )</span></div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="comment">// called when the level loads or when the renderer is restarted</span></div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="comment">// all media should be registered at this time</span></div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="comment">// cgame will display loading status by calling SCR_Update, which</span></div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="comment">// will call CG_DrawInformation during the loading process</span></div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="comment">// reliableCommandSequence will be 0 on fresh loads, but higher for</span></div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="comment">// demos, tourney restarts, or vid_restarts</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="comment">//    void CG_Init( int serverMessageNum, int serverCommandSequence, int clientNum )</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="comment">// called when the level loads or when the renderer is restarted</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="comment">// all media should be registered at this time</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="comment">// cgame will display loading status by calling SCR_Update, which</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="comment">// will call CG_DrawInformation during the loading process</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="comment">// reliableCommandSequence will be 0 on fresh loads, but higher for</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="comment">// demos, tourney restarts, or vid_restarts</span></div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160; </div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0aade0304e8bd6b81b71585ed58cfd526f">CG_SHUTDOWN</a>,</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="comment">//  void (*CG_Shutdown)( void );</span></div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="comment">// opportunity to flush and close any open files</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0aade0304e8bd6b81b71585ed58cfd526f">CG_SHUTDOWN</a>,</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="comment">//    void (*CG_Shutdown)( void );</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            <span class="comment">// opportunity to flush and close any open files</span></div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160; </div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a0243f688634318523b20e69ad0c61a36">CG_CONSOLE_COMMAND</a>,</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="comment">//  qboolean (*CG_ConsoleCommand)( void );</span></div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="comment">// a console command has been issued locally that is not recognized by the</span></div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="comment">// main game system.</span></div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="comment">// use Cmd_Argc() / Cmd_Argv() to read the command, return qfalse if the</span></div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="comment">// command is not known to the game</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a0243f688634318523b20e69ad0c61a36">CG_CONSOLE_COMMAND</a>,</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <span class="comment">//    qboolean (*CG_ConsoleCommand)( void );</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                <span class="comment">// a console command has been issued locally that is not recognized by the</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                <span class="comment">// main game system.</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                <span class="comment">// use Cmd_Argc() / Cmd_Argv() to read the command, return qfalse if the</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                <span class="comment">// command is not known to the game</span></div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a978152366335da51bc7a1c1aa1f710fa">CG_DRAW_ACTIVE_FRAME</a>,</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;<span class="comment">//  void (*CG_DrawActiveFrame)( int serverTime, stereoFrame_t stereoView, qboolean demoPlayback );</span></div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="comment">// Generates and draws a game scene and status information at the given time.</span></div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="comment">// If demoPlayback is set, local movement prediction will not be enabled</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a978152366335da51bc7a1c1aa1f710fa">CG_DRAW_ACTIVE_FRAME</a>,</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                <span class="comment">//    void (*CG_DrawActiveFrame)( int serverTime, stereoFrame_t stereoView, qboolean demoPlayback );</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                    <span class="comment">// Generates and draws a game scene and status information at the given time.</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                    <span class="comment">// If demoPlayback is set, local movement prediction will not be enabled</span></div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160; </div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a487661a219c4299d57f8bbd1589a53e7">CG_CROSSHAIR_PLAYER</a>,</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="comment">//  int (*CG_CrosshairPlayer)( void );</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a487661a219c4299d57f8bbd1589a53e7">CG_CROSSHAIR_PLAYER</a>,</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                    <span class="comment">//    int (*CG_CrosshairPlayer)( void );</span></div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160; </div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a9743c52fb2277409333631344f7ff486">CG_LAST_ATTACKER</a>,</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="comment">//  int (*CG_LastAttacker)( void );</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a9743c52fb2277409333631344f7ff486">CG_LAST_ATTACKER</a>,</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                    <span class="comment">//    int (*CG_LastAttacker)( void );</span></div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a3e5c25ab06613595ec736e1a1426b804">CG_KEY_EVENT</a>, </div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="comment">//  void    (*CG_KeyEvent)( int key, qboolean down );</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a3e5c25ab06613595ec736e1a1426b804">CG_KEY_EVENT</a>,</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                    <span class="comment">//    void    (*CG_KeyEvent)( int key, qboolean down );</span></div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160; </div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a9359d6526bb21cb090f7533970fd30c6">CG_MOUSE_EVENT</a>,</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="comment">//  void    (*CG_MouseEvent)( int dx, int dy );</span></div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a547bd5fb6d36ce20a1d0421a5c8802fe">CG_EVENT_HANDLING</a></div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="comment">//  void (*CG_EventHandling)(int type);</span></div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a9359d6526bb21cb090f7533970fd30c6">CG_MOUSE_EVENT</a>,</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                    <span class="comment">//    void    (*CG_MouseEvent)( int dx, int dy );</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                    <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0a547bd5fb6d36ce20a1d0421a5c8802fe">CG_EVENT_HANDLING</a></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                    <span class="comment">//    void (*CG_EventHandling)(int type);</span></div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;} <a class="code" href="../../d2/d3d/cg__public_8h.html#a17b145c18260e2f2bc53c13d0515b8d0">cgameExport_t</a>;</div>
 </div><!-- fragment -->
 </div>
@@ -646,11 +646,11 @@ Enumerations</h2></td></tr>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="comment">// 1.32</span></div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#a86e72e74b405a3b48189c31f78d8594fa37ae4b07e1c564c3bdf45ddc08857304">CG_FS_SEEK</a>,</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160; </div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="comment">    CG_LOADCAMERA,</span></div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="comment">    CG_STARTCAMERA,</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="comment">    CG_GETCAMERAINFO,</span></div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="comment">/*</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="comment">        CG_LOADCAMERA,</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="comment">        CG_STARTCAMERA,</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="comment">        CG_GETCAMERAINFO,</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="comment">    */</span></div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#a86e72e74b405a3b48189c31f78d8594faeaed6c00e8f0e9fb791e28f18d0cfff3">CG_MEMSET</a> = 100,</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <a class="code" href="../../d2/d3d/cg__public_8h.html#a86e72e74b405a3b48189c31f78d8594fa775f1e20825c30e316b111cbd045e321">CG_MEMCPY</a>,</div>

@@ -100,6 +100,9 @@ $(document).ready(function(){initNavTree('d4/d7d/structclient_session__t.html','
 </div><!--header-->
 <div class="contents">
 
+<p>Client data that stays across multiple levels or tournament restarts.  
+ <a href="../../d4/d7d/structclient_session__t.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -107,21 +110,28 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad762df8798f7faf56facb9353093473a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/daa/bg__public_8h.html#ae596054e297a191cc66e2e6015b22739">team_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7d/structclient_session__t.html#ad762df8798f7faf56facb9353093473a">sessionTeam</a></td></tr>
 <tr class="separator:ad762df8798f7faf56facb9353093473a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07dfb8a24716a2ec92958e3aa2e135fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7d/structclient_session__t.html#a07dfb8a24716a2ec92958e3aa2e135fa">spectatorNum</a></td></tr>
+<tr class="memdesc:a07dfb8a24716a2ec92958e3aa2e135fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">for determining next-in-line to play.  <a href="../../d4/d7d/structclient_session__t.html#a07dfb8a24716a2ec92958e3aa2e135fa">More...</a><br /></td></tr>
 <tr class="separator:a07dfb8a24716a2ec92958e3aa2e135fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4b215b575782a22fc084dde03108dd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/ddf/g__local_8h.html#a5336d3c0fa1a42bd1b21650a3acc6f89">spectatorState_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7d/structclient_session__t.html#ab4b215b575782a22fc084dde03108dd0">spectatorState</a></td></tr>
 <tr class="separator:ab4b215b575782a22fc084dde03108dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08a395a520bf432a1fc44978694811e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7d/structclient_session__t.html#a08a395a520bf432a1fc44978694811e8">spectatorClient</a></td></tr>
+<tr class="memdesc:a08a395a520bf432a1fc44978694811e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">for chasecam and follow mode.  <a href="../../d4/d7d/structclient_session__t.html#a08a395a520bf432a1fc44978694811e8">More...</a><br /></td></tr>
 <tr class="separator:a08a395a520bf432a1fc44978694811e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638d6a3efbccae6abb8491fe08bf35be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7d/structclient_session__t.html#a638d6a3efbccae6abb8491fe08bf35be">wins</a></td></tr>
 <tr class="separator:a638d6a3efbccae6abb8491fe08bf35be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1d2df3e60bba1889ca69f8d95b5ca81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7d/structclient_session__t.html#ad1d2df3e60bba1889ca69f8d95b5ca81">losses</a></td></tr>
+<tr class="memdesc:ad1d2df3e60bba1889ca69f8d95b5ca81"><td class="mdescLeft">&#160;</td><td class="mdescRight">tournament stats.  <a href="../../d4/d7d/structclient_session__t.html#ad1d2df3e60bba1889ca69f8d95b5ca81">More...</a><br /></td></tr>
 <tr class="separator:ad1d2df3e60bba1889ca69f8d95b5ca81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b900cf97e4f4ccef7313e92c14662d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136">qboolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7d/structclient_session__t.html#a8b900cf97e4f4ccef7313e92c14662d2">teamLeader</a></td></tr>
+<tr class="memdesc:a8b900cf97e4f4ccef7313e92c14662d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">true when this client is a team leader.  <a href="../../d4/d7d/structclient_session__t.html#a8b900cf97e4f4ccef7313e92c14662d2">More...</a><br /></td></tr>
 <tr class="separator:a8b900cf97e4f4ccef7313e92c14662d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00220">220</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
+<div class="textblock"><p>Client data that stays across multiple levels or tournament restarts. </p>
+<p>This is achieved by writing all the data to cvar strings at game shutdown time and reading them back at connection time.</p>
+<p>Anything added here MUST be dealt with in <a class="el" href="../../d3/ddf/g__local_8h.html#a368165e7f1393836d71cbc35733a3119">G_InitSessionData()</a> / <a class="el" href="../../d3/ddf/g__local_8h.html#a02137abf5e6f44fd1e6dea4f05bef3f4">G_ReadSessionData()</a> / <a class="el" href="../../d3/ddf/g__local_8h.html#ac08cadb7834ec870d7353abf44282419">G_WriteSessionData()</a>. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00225">225</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="ad1d2df3e60bba1889ca69f8d95b5ca81"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1d2df3e60bba1889ca69f8d95b5ca81">&#9670;&nbsp;</a></span>losses</h2>
@@ -135,7 +145,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00225">225</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
+<p>tournament stats. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00230">230</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/dd3/g__main_8c.html#ac81411f7271b919ac5e8387f1c13f796">AdjustTournamentScores()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a99a3113e709b01640bb64173c0ccd076">ClientUserinfoChanged()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#ab0ac00458b852c3e65fd6266f30e2e15">Cmd_Follow_f()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a5e1923520c1e49d43e172534c742ad89">Cmd_FollowCycle_f()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#aba220723a31915c8250888f92d331b6b">Cmd_Team_f()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a02137abf5e6f44fd1e6dea4f05bef3f4">G_ReadSessionData()</a>, and <a class="el" href="../../da/d36/g__session_8c.html#a795c59456793f440dedad0d1d2c11ad5">G_WriteClientSessionData()</a>.</p>
 
@@ -153,7 +165,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00221">221</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00226">226</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/dd3/g__main_8c.html#a7840741247cca0b08c1df45a18a913ad">AddTournamentPlayer()</a>, <a class="el" href="../../df/dd3/g__main_8c.html#afa7ab2adb773248e06cd88913ee5fa05">AddTournamentQueue()</a>, <a class="el" href="../../d0/d79/ai__dmq3_8h.html#aa4d3b20c28d116b201ac3b44bef9a95f">BotSameTeam()</a>, <a class="el" href="../../d0/d79/ai__dmq3_8h.html#ac20f6a37db651622eecec3aba96f6a2c">BotTeam()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a10a3c13a317605bb525900ed951f5bb8">BroadcastTeamChange()</a>, <a class="el" href="../../df/dd3/g__main_8c.html#a402502c1726ee66d1d64271c0d754d64">CalculateRanks()</a>, <a class="el" href="../../df/dd3/g__main_8c.html#aca8102dd4ee4aedecd6cdaf34198e0db">CheckTeamLeader()</a>, <a class="el" href="../../de/d42/g__team_8h.html#a32713ba91b9348e1ed2c64f1857a5ddf">CheckTeamStatus()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a50574ca71cde81eb9734debd6f339eee">ClientBegin()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a666c3facdcd7306389f5306812b9e0b5">ClientConnect()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a051cde3b0428f6745526ac10d9d4ace7">ClientDisconnect()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#ab756c814a0ee99263cd8d2c7ba437854">ClientEndFrame()</a>, <a class="el" href="../../d8/dfa/g__active_8c.html#aee2a22392cb943e36a492d808d624192">ClientEvents()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#acbd8b9d275ad81ec031326f3f48c6c49">ClientSpawn()</a>, <a class="el" href="../../d8/dfa/g__active_8c.html#a2a04b42a58a69cf04de3737471f7142e">ClientThink_real()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a99a3113e709b01640bb64173c0ccd076">ClientUserinfoChanged()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#a41745a53710f387105f4532496a3c42a">Cmd_CallTeamVote_f()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#acada4c9d1d69bd723b662c9bc3876613">Cmd_CallVote_f()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#ab0ac00458b852c3e65fd6266f30e2e15">Cmd_Follow_f()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a5e1923520c1e49d43e172534c742ad89">Cmd_FollowCycle_f()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#af4d0ca43f0b673e3a439067e37acbdd9">Cmd_Kill_f()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#aba220723a31915c8250888f92d331b6b">Cmd_Team_f()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#a16f4ffde72e9c413ec186f9cbd6365b9">Cmd_TeamVote_f()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#a7aa66495deff3ad46f9e24c006992eb7">Cmd_Vote_f()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a368165e7f1393836d71cbc35733a3119">G_InitSessionData()</a>, <a class="el" href="../../d7/de7/g__rankings_8c.html#aff96d3fdb4cef9494ae350b4894db2e1">G_RankRunFrame()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a02137abf5e6f44fd1e6dea4f05bef3f4">G_ReadSessionData()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#af2797d714b0590e4aff670504c6e32aa">G_Say()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#a63fc93d4e196c83886349e5d05f5fe0f">G_SayTo()</a>, <a class="el" href="../../d2/da2/g__utils_8c.html#aab5d76f9da5e0422525b55f602031563">G_TeamCommand()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#aafcba47fbc6500929c1fc8fc4d888d5e">G_TouchTriggers()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a795c59456793f440dedad0d1d2c11ad5">G_WriteClientSessionData()</a>, <a class="el" href="../../de/d4b/g__trigger_8c.html#a8c3dfd0f3e734887269c04a9ad530c4d">multi_trigger()</a>, <a class="el" href="../../d7/daf/g__team_8c.html#aea2beebb4cfb179ec9a83926fe82d4a4">OnSameTeam()</a>, <a class="el" href="../../d9/d63/g__items_8c.html#a3300a6cb8fef2d84a3bd74087666f496">Pickup_Powerup()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a066907a0d8d14cb18b7968cd571ef86b">player_die()</a>, <a class="el" href="../../df/dd3/g__main_8c.html#a2e71e6e80a2addce6ec3096419caf538">PrintTeam()</a>, <a class="el" href="../../df/dd3/g__main_8c.html#a0c8c4639a34bac2be431e54a9df95bd6">SetLeader()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a99a1339fe7fbbb3464a26b467c2ebf70">SetTeam()</a>, <a class="el" href="../../df/dd3/g__main_8c.html#a2a220b76f1418e3802377f7d357f5f9c">SortRanks()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#aac84303ad674d5961f24c0a7d0dac015">StopFollowing()</a>, <a class="el" href="../../d5/d4b/g__target_8c.html#ac45c3cdfc48cf131ba750852915d8f5e">target_relay_use()</a>, <a class="el" href="../../de/d42/g__team_8h.html#a2124bb0897ae18e4b656fa3d34889d82">Team_CheckHurtCarrier()</a>, <a class="el" href="../../d7/daf/g__team_8c.html#a52b3570c68dd8e96c2e215929fbfe2ff">Team_ForceGesture()</a>, <a class="el" href="../../de/d42/g__team_8h.html#a0482dd211e7942d0c2ea3111dc9792db">Team_FragBonuses()</a>, <a class="el" href="../../d7/daf/g__team_8c.html#ae8abb13e949daf93837f118931fd5f8c">Team_TouchOurFlag()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a3ba34c691c0c6eafa0ec9d912b1652e4">TeamCount()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a5ce12ec20dc64021e0ffd4102e92ef8b">TeamLeader()</a>, <a class="el" href="../../de/d42/g__team_8h.html#aad47b2de6df13d1230eefc61df2c30d5">TeamplayInfoMessage()</a>, <a class="el" href="../../d1/d6b/g__misc_8c.html#a5d6d909ea2aedbf6a2858b99ea4ffcd0">TeleportPlayer()</a>, <a class="el" href="../../d7/dd7/g__mover_8c.html#a1cc2b6711057d7fadd93d8ae61c5ec57">Touch_DoorTrigger()</a>, <a class="el" href="../../de/d4b/g__trigger_8c.html#a713d7c9033f170156736b9ff686b31ac">trigger_teleporter_touch()</a>, and <a class="el" href="../../d3/ddf/g__local_8h.html#a09b969e321bceba4cef1f3c725d854df">UpdateTournamentInfo()</a>.</p>
 
@@ -171,7 +183,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00224">224</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
+<p>for chasecam and follow mode. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00229">229</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/dd3/g__main_8c.html#a7840741247cca0b08c1df45a18a913ad">AddTournamentPlayer()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a051cde3b0428f6745526ac10d9d4ace7">ClientDisconnect()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#ab0ac00458b852c3e65fd6266f30e2e15">Cmd_Follow_f()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a5e1923520c1e49d43e172534c742ad89">Cmd_FollowCycle_f()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a02137abf5e6f44fd1e6dea4f05bef3f4">G_ReadSessionData()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a795c59456793f440dedad0d1d2c11ad5">G_WriteClientSessionData()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a066907a0d8d14cb18b7968cd571ef86b">player_die()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a99a1339fe7fbbb3464a26b467c2ebf70">SetTeam()</a>, <a class="el" href="../../df/dd3/g__main_8c.html#a2a220b76f1418e3802377f7d357f5f9c">SortRanks()</a>, <a class="el" href="../../d8/dfa/g__active_8c.html#a924298930e1c7ba2059c7d09c492d665">SpectatorClientEndFrame()</a>, and <a class="el" href="../../de/d42/g__team_8h.html#aad47b2de6df13d1230eefc61df2c30d5">TeamplayInfoMessage()</a>.</p>
 
@@ -189,7 +203,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00222">222</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
+<p>for determining next-in-line to play. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00227">227</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/dd3/g__main_8c.html#a7840741247cca0b08c1df45a18a913ad">AddTournamentPlayer()</a>, <a class="el" href="../../df/dd3/g__main_8c.html#afa7ab2adb773248e06cd88913ee5fa05">AddTournamentQueue()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a02137abf5e6f44fd1e6dea4f05bef3f4">G_ReadSessionData()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a795c59456793f440dedad0d1d2c11ad5">G_WriteClientSessionData()</a>, and <a class="el" href="../../df/dd3/g__main_8c.html#a2a220b76f1418e3802377f7d357f5f9c">SortRanks()</a>.</p>
 
@@ -207,7 +223,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00223">223</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00228">228</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/dd3/g__main_8c.html#a7840741247cca0b08c1df45a18a913ad">AddTournamentPlayer()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a051cde3b0428f6745526ac10d9d4ace7">ClientDisconnect()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#acbd8b9d275ad81ec031326f3f48c6c49">ClientSpawn()</a>, <a class="el" href="../../d8/dfa/g__active_8c.html#a2a04b42a58a69cf04de3737471f7142e">ClientThink_real()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a99a3113e709b01640bb64173c0ccd076">ClientUserinfoChanged()</a>, <a class="el" href="../../d4/dae/g__cmds_8c.html#ab0ac00458b852c3e65fd6266f30e2e15">Cmd_Follow_f()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a5e1923520c1e49d43e172534c742ad89">Cmd_FollowCycle_f()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a368165e7f1393836d71cbc35733a3119">G_InitSessionData()</a>, <a class="el" href="../../d7/de7/g__rankings_8c.html#aff96d3fdb4cef9494ae350b4894db2e1">G_RankRunFrame()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a02137abf5e6f44fd1e6dea4f05bef3f4">G_ReadSessionData()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a795c59456793f440dedad0d1d2c11ad5">G_WriteClientSessionData()</a>, <a class="el" href="../../df/dd3/g__main_8c.html#a8d8704292913567965633d926fd1daed">MoveClientToIntermission()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a99a1339fe7fbbb3464a26b467c2ebf70">SetTeam()</a>, <a class="el" href="../../df/dd3/g__main_8c.html#a2a220b76f1418e3802377f7d357f5f9c">SortRanks()</a>, <a class="el" href="../../d8/dfa/g__active_8c.html#a924298930e1c7ba2059c7d09c492d665">SpectatorClientEndFrame()</a>, <a class="el" href="../../d8/dfa/g__active_8c.html#a81a41fe667e4d5ecaa511249a9040a77">SpectatorThink()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#aac84303ad674d5961f24c0a7d0dac015">StopFollowing()</a>, and <a class="el" href="../../de/d42/g__team_8h.html#aad47b2de6df13d1230eefc61df2c30d5">TeamplayInfoMessage()</a>.</p>
 
@@ -225,7 +241,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00226">226</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
+<p>true when this client is a team leader. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00231">231</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/dd3/g__main_8c.html#aca8102dd4ee4aedecd6cdaf34198e0db">CheckTeamLeader()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a99a3113e709b01640bb64173c0ccd076">ClientUserinfoChanged()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a02137abf5e6f44fd1e6dea4f05bef3f4">G_ReadSessionData()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a795c59456793f440dedad0d1d2c11ad5">G_WriteClientSessionData()</a>, <a class="el" href="../../df/dd3/g__main_8c.html#a0c8c4639a34bac2be431e54a9df95bd6">SetLeader()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a99a1339fe7fbbb3464a26b467c2ebf70">SetTeam()</a>, and <a class="el" href="../../d3/ddf/g__local_8h.html#a5ce12ec20dc64021e0ffd4102e92ef8b">TeamLeader()</a>.</p>
 
@@ -243,7 +261,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00225">225</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/ddf/g__local_8h_source.html#l00230">230</a> of file <a class="el" href="../../d3/ddf/g__local_8h_source.html">g_local.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/dd3/g__main_8c.html#ac81411f7271b919ac5e8387f1c13f796">AdjustTournamentScores()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a051cde3b0428f6745526ac10d9d4ace7">ClientDisconnect()</a>, <a class="el" href="../../d3/ddf/g__local_8h.html#a99a3113e709b01640bb64173c0ccd076">ClientUserinfoChanged()</a>, <a class="el" href="../../da/d36/g__session_8c.html#a02137abf5e6f44fd1e6dea4f05bef3f4">G_ReadSessionData()</a>, and <a class="el" href="../../da/d36/g__session_8c.html#a795c59456793f440dedad0d1d2c11ad5">G_WriteClientSessionData()</a>.</p>
 

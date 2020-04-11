@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ioquake3 doxygen: C:/entry/dev/ioquake3/code/cgame/cg_consolecmds.c File Reference</title>
+<title>ioquake3 doxygen: C:/entry/dev/ioq3/code/cgame/cg_consolecmds.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -156,22 +156,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00515">515</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;                                   {</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>  *cmd;</div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;    <span class="keywordtype">int</span>     i;</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160; </div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    cmd = <a class="code" href="../../d9/d79/cg__local_8h.html#a9d580339ac1af7fe05a0688702307c60">CG_Argv</a>(0);</div>
-<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160; </div>
-<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    <span class="keywordflow">for</span> ( i = 0 ; i &lt; <a class="code" href="../../de/d01/q__shared_8h.html#a841615a63f4a3aa18337897953874909">ARRAY_LEN</a>( <a class="code" href="../../df/d45/cg__consolecmds_8c.html#af5f93119dd66457ccc2c46f4468aaf93">commands</a> ) ; i++ ) {</div>
-<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        <span class="keywordflow">if</span> ( !<a class="code" href="../../d3/d86/q__shared_8c.html#ad3e9eb4ad33935ff8f263c167b0ae3dc">Q_stricmp</a>( cmd, <a class="code" href="../../df/d45/cg__consolecmds_8c.html#af5f93119dd66457ccc2c46f4468aaf93">commands</a>[i].cmd ) ) {</div>
-<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;            <a class="code" href="../../df/d45/cg__consolecmds_8c.html#af5f93119dd66457ccc2c46f4468aaf93">commands</a>[i].<a class="code" href="../../d4/dae/structconsole_command__t.html#aa9b93fb6d2f9b90352f7790ffdae5fe9">function</a>();</div>
-<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136a9a60e3a3b7123e30c470bd5823cde09d">qtrue</a>;</div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;        }</div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    }</div>
-<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160; </div>
-<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136a0e538a5d43e68d2de4eb96c77855de40">qfalse</a>;</div>
-<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00543">543</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;{</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* cmd;</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    <span class="keywordtype">int</span>        i;</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160; </div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    cmd = <a class="code" href="../../d9/d79/cg__local_8h.html#a9d580339ac1af7fe05a0688702307c60">CG_Argv</a>(0);</div>
+<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160; </div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; <a class="code" href="../../de/d01/q__shared_8h.html#a841615a63f4a3aa18337897953874909">ARRAY_LEN</a>(<a class="code" href="../../df/d45/cg__consolecmds_8c.html#af5f93119dd66457ccc2c46f4468aaf93">commands</a>); i++) {</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d3/d86/q__shared_8c.html#ad3e9eb4ad33935ff8f263c167b0ae3dc">Q_stricmp</a>(cmd, <a class="code" href="../../df/d45/cg__consolecmds_8c.html#af5f93119dd66457ccc2c46f4468aaf93">commands</a>[i].cmd)) {</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;            <a class="code" href="../../df/d45/cg__consolecmds_8c.html#af5f93119dd66457ccc2c46f4468aaf93">commands</a>[i].<a class="code" href="../../d4/dae/structconsole_command__t.html#aa9b93fb6d2f9b90352f7790ffdae5fe9">function</a>();</div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136a9a60e3a3b7123e30c470bd5823cde09d">qtrue</a>;</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;        }</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    }</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160; </div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136a0e538a5d43e68d2de4eb96c77855de40">qfalse</a>;</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../d9/d47/cg__main_8c.html#ae2ca6a34a4970359aff396e3a3ab1870">vmMain()</a>.</p>
 
@@ -193,51 +193,51 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00540">540</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;                                    {</div>
-<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;    <span class="keywordtype">int</span>     i;</div>
-<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160; </div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;    <span class="keywordflow">for</span> ( i = 0 ; i &lt; <a class="code" href="../../de/d01/q__shared_8h.html#a841615a63f4a3aa18337897953874909">ARRAY_LEN</a>( <a class="code" href="../../df/d45/cg__consolecmds_8c.html#af5f93119dd66457ccc2c46f4468aaf93">commands</a> ) ; i++ ) {</div>
-<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>( <a class="code" href="../../df/d45/cg__consolecmds_8c.html#af5f93119dd66457ccc2c46f4468aaf93">commands</a>[i].cmd );</div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    }</div>
-<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160; </div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;    <span class="comment">//</span></div>
-<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    <span class="comment">// the game server will interpret these commands, which will be automatically</span></div>
-<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    <span class="comment">// forwarded to the server after they are not recognized locally</span></div>
-<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    <span class="comment">//</span></div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;kill&quot;</span>);</div>
-<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;say&quot;</span>);</div>
-<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;say_team&quot;</span>);</div>
-<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;tell&quot;</span>);</div>
-<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;<span class="preprocessor">#ifdef MISSIONPACK</span></div>
-<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;vsay&quot;</span>);</div>
-<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;vsay_team&quot;</span>);</div>
-<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;vtell&quot;</span>);</div>
-<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;vtaunt&quot;</span>);</div>
-<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;vosay&quot;</span>);</div>
-<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;vosay_team&quot;</span>);</div>
-<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;votell&quot;</span>);</div>
-<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;give&quot;</span>);</div>
-<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;god&quot;</span>);</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;notarget&quot;</span>);</div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;noclip&quot;</span>);</div>
-<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;where&quot;</span>);</div>
-<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;team&quot;</span>);</div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;follow&quot;</span>);</div>
-<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;follownext&quot;</span>);</div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;followprev&quot;</span>);</div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;levelshot&quot;</span>);</div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;addbot&quot;</span>);</div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;setviewpos&quot;</span>);</div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;callvote&quot;</span>);</div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;vote&quot;</span>);</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;callteamvote&quot;</span>);</div>
-<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;teamvote&quot;</span>);</div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;stats&quot;</span>);</div>
-<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;teamtask&quot;</span>);</div>
-<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a> (<span class="stringliteral">&quot;loaddefered&quot;</span>);    <span class="comment">// spelled wrong, but not changing for demo</span></div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00569">569</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;{</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;    <span class="keywordtype">int</span>        i;</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160; </div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; <a class="code" href="../../de/d01/q__shared_8h.html#a841615a63f4a3aa18337897953874909">ARRAY_LEN</a>(<a class="code" href="../../df/d45/cg__consolecmds_8c.html#af5f93119dd66457ccc2c46f4468aaf93">commands</a>); i++) {</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<a class="code" href="../../df/d45/cg__consolecmds_8c.html#af5f93119dd66457ccc2c46f4468aaf93">commands</a>[i].cmd);</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    }</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160; </div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;    <span class="comment">// the game server will interpret these commands, which will be automatically</span></div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;    <span class="comment">// forwarded to the server after they are not recognized locally</span></div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;kill&quot;</span>);</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;say&quot;</span>);</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;say_team&quot;</span>);</div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;tell&quot;</span>);</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;<span class="preprocessor">#ifdef MISSIONPACK</span></div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;vsay&quot;</span>);</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;vsay_team&quot;</span>);</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;vtell&quot;</span>);</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;vtaunt&quot;</span>);</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;vosay&quot;</span>);</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;vosay_team&quot;</span>);</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;votell&quot;</span>);</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;give&quot;</span>);</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;god&quot;</span>);</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;notarget&quot;</span>);</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;noclip&quot;</span>);</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;where&quot;</span>);</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;team&quot;</span>);</div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;follow&quot;</span>);</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;follownext&quot;</span>);</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;followprev&quot;</span>);</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;levelshot&quot;</span>);</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;addbot&quot;</span>);</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;setviewpos&quot;</span>);</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;callvote&quot;</span>);</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;vote&quot;</span>);</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;callteamvote&quot;</span>);</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;teamvote&quot;</span>);</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;stats&quot;</span>);</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;teamtask&quot;</span>);</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a>(<span class="stringliteral">&quot;loaddefered&quot;</span>);    <span class="comment">// spelled wrong, but not changing for demo</span></div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../d9/d47/cg__main_8c.html#aa5f93d48c38ccdca1e68994b5bb31bf0">CG_Init()</a>.</p>
 
@@ -267,30 +267,30 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00087">87</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                                    {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#ifdef MISSIONPACK</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a5c7ce82b4d954603a0f6f281acf602e5">CG_BuildSpectatorString</a>();</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">if</span> ( <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#ac8ca7a6033235902868e54a7929dabfa">scoresRequestTime</a> + 2000 &lt; <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#af249ebbe8ada9e7cdd645e2f540b37fc">time</a> ) {</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="comment">// the scores are more than two seconds out of data,</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="comment">// so request new ones</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#ac8ca7a6033235902868e54a7929dabfa">scoresRequestTime</a> = <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#af249ebbe8ada9e7cdd645e2f540b37fc">time</a>;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#ae68a3c06b7e165aff56ca68702af10ef">trap_SendClientCommand</a>( <span class="stringliteral">&quot;score&quot;</span> );</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="comment">// leave the current scores up if they were already</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="comment">// displayed, but if this is the first hit, clear them out</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">if</span> ( !<a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#a4ab5ae310a1c7a1f9cec7ca0f398aa19">showScores</a> ) {</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#a4ab5ae310a1c7a1f9cec7ca0f398aa19">showScores</a> = <a class="code" href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136a9a60e3a3b7123e30c470bd5823cde09d">qtrue</a>;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#a3830c6dd83019f0ef5007f5e161be181">numScores</a> = 0;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        }</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="comment">// show the cached contents even if they just pressed if it</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="comment">// is within two seconds</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#a4ab5ae310a1c7a1f9cec7ca0f398aa19">showScores</a> = <a class="code" href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136a9a60e3a3b7123e30c470bd5823cde09d">qtrue</a>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00084">84</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;{</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#ifdef MISSIONPACK</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a5c7ce82b4d954603a0f6f281acf602e5">CG_BuildSpectatorString</a>();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#ac8ca7a6033235902868e54a7929dabfa">scoresRequestTime</a> + 2000 &lt; <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#af249ebbe8ada9e7cdd645e2f540b37fc">time</a>) {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="comment">// the scores are more than two seconds out of data,</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="comment">// so request new ones</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#ac8ca7a6033235902868e54a7929dabfa">scoresRequestTime</a> = <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#af249ebbe8ada9e7cdd645e2f540b37fc">time</a>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#ae68a3c06b7e165aff56ca68702af10ef">trap_SendClientCommand</a>(<span class="stringliteral">&quot;score&quot;</span>);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="comment">// leave the current scores up if they were already</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="comment">// displayed, but if this is the first hit, clear them out</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#a4ab5ae310a1c7a1f9cec7ca0f398aa19">showScores</a>) {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#a4ab5ae310a1c7a1f9cec7ca0f398aa19">showScores</a> = <a class="code" href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136a9a60e3a3b7123e30c470bd5823cde09d">qtrue</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#a3830c6dd83019f0ef5007f5e161be181">numScores</a> = 0;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="comment">// show the cached contents even if they just pressed if it</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="comment">// is within two seconds</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#a4ab5ae310a1c7a1f9cec7ca0f398aa19">showScores</a> = <a class="code" href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136a9a60e3a3b7123e30c470bd5823cde09d">qtrue</a>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -318,13 +318,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00111">111</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                                  {</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">if</span> ( <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#a4ab5ae310a1c7a1f9cec7ca0f398aa19">showScores</a> ) {</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#a4ab5ae310a1c7a1f9cec7ca0f398aa19">showScores</a> = <a class="code" href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136a0e538a5d43e68d2de4eb96c77855de40">qfalse</a>;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#ab860df06e1ec31291787cfdb8cf47c89">scoreFadeTime</a> = <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#af249ebbe8ada9e7cdd645e2f540b37fc">time</a>;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00109">109</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;{</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#a4ab5ae310a1c7a1f9cec7ca0f398aa19">showScores</a>) {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#a4ab5ae310a1c7a1f9cec7ca0f398aa19">showScores</a> = <a class="code" href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136a0e538a5d43e68d2de4eb96c77855de40">qfalse</a>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#ab860df06e1ec31291787cfdb8cf47c89">scoreFadeTime</a> = <a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#af249ebbe8ada9e7cdd645e2f540b37fc">time</a>;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -352,10 +352,10 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00068">68</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                 {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_viewsize&quot;</span>, <a class="code" href="../../d3/d86/q__shared_8c.html#abb28e4bfc5e70aa5cbedc383741c6faf">va</a>(<span class="stringliteral">&quot;%i&quot;</span>,(<span class="keywordtype">int</span>)(<a class="code" href="../../d9/d79/cg__local_8h.html#a73c23dba5126139623bc0b3cdcc2dcef">cg_viewsize</a>.<a class="code" href="../../d0/dab/structvm_cvar__t.html#a692c1a403e65c64a1f9309bca9f47007">integer</a>-10)));</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00064">64</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_viewsize&quot;</span>, <a class="code" href="../../d3/d86/q__shared_8c.html#abb28e4bfc5e70aa5cbedc383741c6faf">va</a>(<span class="stringliteral">&quot;%i&quot;</span>, (<span class="keywordtype">int</span>)(<a class="code" href="../../d9/d79/cg__local_8h.html#a73c23dba5126139623bc0b3cdcc2dcef">cg_viewsize</a>.<a class="code" href="../../d0/dab/structvm_cvar__t.html#a692c1a403e65c64a1f9309bca9f47007">integer</a> - 10)));</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -383,10 +383,10 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00056">56</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                               {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_viewsize&quot;</span>, <a class="code" href="../../d3/d86/q__shared_8c.html#abb28e4bfc5e70aa5cbedc383741c6faf">va</a>(<span class="stringliteral">&quot;%i&quot;</span>,(<span class="keywordtype">int</span>)(<a class="code" href="../../d9/d79/cg__local_8h.html#a73c23dba5126139623bc0b3cdcc2dcef">cg_viewsize</a>.<a class="code" href="../../d0/dab/structvm_cvar__t.html#a692c1a403e65c64a1f9309bca9f47007">integer</a>+10)));</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00052">52</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_viewsize&quot;</span>, <a class="code" href="../../d3/d86/q__shared_8c.html#abb28e4bfc5e70aa5cbedc383741c6faf">va</a>(<span class="stringliteral">&quot;%i&quot;</span>, (<span class="keywordtype">int</span>)(<a class="code" href="../../d9/d79/cg__local_8h.html#a73c23dba5126139623bc0b3cdcc2dcef">cg_viewsize</a>.<a class="code" href="../../d0/dab/structvm_cvar__t.html#a692c1a403e65c64a1f9309bca9f47007">integer</a> + 10)));</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -414,24 +414,24 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00416">416</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;                                    {</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    <span class="keywordtype">char</span> var[<a class="code" href="../../de/d01/q__shared_8h.html#ad3a2e655ad8e14b220a3571a5d5d69df">MAX_TOKEN_CHARS</a>];</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160; </div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a2e13a225b5da8e2dc5431319cf5a8144">trap_Cvar_VariableStringBuffer</a>( <span class="stringliteral">&quot;developer&quot;</span>, var, <span class="keyword">sizeof</span>( var ) );</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <span class="keywordflow">if</span> ( !atoi(var) ) {</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    }</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d79/cg__local_8h.html#a5cc10cd301a4668d316bcd1f47003c17">cg_cameraOrbit</a>.<a class="code" href="../../d0/dab/structvm_cvar__t.html#ad0e200567abb45c4a6e8727ccb6aba74">value</a> != 0) {</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a> (<span class="stringliteral">&quot;cg_cameraOrbit&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>);</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_thirdPerson&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>);</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_cameraOrbit&quot;</span>, <span class="stringliteral">&quot;5&quot;</span>);</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_thirdPerson&quot;</span>, <span class="stringliteral">&quot;1&quot;</span>);</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_thirdPersonAngle&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>);</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_thirdPersonRange&quot;</span>, <span class="stringliteral">&quot;100&quot;</span>);</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    }</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00443">443</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;{</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <span class="keywordtype">char</span> var[<a class="code" href="../../de/d01/q__shared_8h.html#ad3a2e655ad8e14b220a3571a5d5d69df">MAX_TOKEN_CHARS</a>];</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160; </div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a2e13a225b5da8e2dc5431319cf5a8144">trap_Cvar_VariableStringBuffer</a>(<span class="stringliteral">&quot;developer&quot;</span>, var, <span class="keyword">sizeof</span>(var));</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;    <span class="keywordflow">if</span> (!atoi(var)) {</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;    }</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d79/cg__local_8h.html#a5cc10cd301a4668d316bcd1f47003c17">cg_cameraOrbit</a>.<a class="code" href="../../d0/dab/structvm_cvar__t.html#ad0e200567abb45c4a6e8727ccb6aba74">value</a> != 0) {</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_cameraOrbit&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>);</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_thirdPerson&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>);</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_cameraOrbit&quot;</span>, <span class="stringliteral">&quot;5&quot;</span>);</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_thirdPerson&quot;</span>, <span class="stringliteral">&quot;1&quot;</span>);</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_thirdPersonAngle&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>);</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        <a class="code" href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a>(<span class="stringliteral">&quot;cg_thirdPersonRange&quot;</span>, <span class="stringliteral">&quot;100&quot;</span>);</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    }</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -451,19 +451,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00034">34</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">int</span>     targetNum;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">char</span>    test[4];</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    targetNum = <a class="code" href="../../d9/d79/cg__local_8h.html#ad299368fbdde364705c4d990205c413a">CG_CrosshairPlayer</a>();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">if</span> ( targetNum == -1 ) {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#ad331853a99c126ea3565b4474631eae9">trap_Argv</a>( 1, test, 4 );</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#ae68a3c06b7e165aff56ca68702af10ef">trap_SendClientCommand</a>( <a class="code" href="../../d3/d86/q__shared_8c.html#abb28e4bfc5e70aa5cbedc383741c6faf">va</a>( <span class="stringliteral">&quot;gc %i %i&quot;</span>, targetNum, atoi( test ) ) );</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00032">32</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">int</span>        targetNum;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">char</span>    test[4];</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    targetNum = <a class="code" href="../../d9/d79/cg__local_8h.html#ad299368fbdde364705c4d990205c413a">CG_CrosshairPlayer</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> (targetNum == -1)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#ad331853a99c126ea3565b4474631eae9">trap_Argv</a>(1, test, 4);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#ae68a3c06b7e165aff56ca68702af10ef">trap_SendClientCommand</a>(<a class="code" href="../../d3/d86/q__shared_8c.html#abb28e4bfc5e70aa5cbedc383741c6faf">va</a>(<span class="stringliteral">&quot;gc %i %i&quot;</span>, targetNum, atoi(test)));</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -491,21 +490,21 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00198">198</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                                      {</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keywordtype">int</span>     clientNum;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordtype">char</span>    command[128];</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordtype">char</span>    message[128];</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160; </div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    clientNum = <a class="code" href="../../d9/d79/cg__local_8h.html#afa5d7a47e52a461453f0b24206104e18">CG_LastAttacker</a>();</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordflow">if</span> ( clientNum == -1 ) {</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a0c14c6673a462d0cd32c48889d5a8380">trap_Args</a>( message, 128 );</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <a class="code" href="../../d3/d86/q__shared_8c.html#ac588f8840a6e947e3284578c52bd624d">Com_sprintf</a>( command, 128, <span class="stringliteral">&quot;tell %i %s&quot;</span>, clientNum, message );</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#ae68a3c06b7e165aff56ca68702af10ef">trap_SendClientCommand</a>( command );</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00203">203</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;{</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordtype">int</span>        clientNum;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordtype">char</span>    command[128];</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordtype">char</span>    message[128];</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160; </div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    clientNum = <a class="code" href="../../d9/d79/cg__local_8h.html#afa5d7a47e52a461453f0b24206104e18">CG_LastAttacker</a>();</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keywordflow">if</span> (clientNum == -1) {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    }</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160; </div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a0c14c6673a462d0cd32c48889d5a8380">trap_Args</a>(message, 128);</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <a class="code" href="../../d3/d86/q__shared_8c.html#ac588f8840a6e947e3284578c52bd624d">Com_sprintf</a>(command, 128, <span class="stringliteral">&quot;tell %i %s&quot;</span>, clientNum, message);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#ae68a3c06b7e165aff56ca68702af10ef">trap_SendClientCommand</a>(command);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -533,21 +532,21 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00183">183</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                                    {</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordtype">int</span>     clientNum;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordtype">char</span>    command[128];</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordtype">char</span>    message[128];</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    clientNum = <a class="code" href="../../d9/d79/cg__local_8h.html#ad299368fbdde364705c4d990205c413a">CG_CrosshairPlayer</a>();</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordflow">if</span> ( clientNum == -1 ) {</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00187">187</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;{</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordtype">int</span>        clientNum;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordtype">char</span>    command[128];</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keywordtype">char</span>    message[128];</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a0c14c6673a462d0cd32c48889d5a8380">trap_Args</a>( message, 128 );</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <a class="code" href="../../d3/d86/q__shared_8c.html#ac588f8840a6e947e3284578c52bd624d">Com_sprintf</a>( command, 128, <span class="stringliteral">&quot;tell %i %s&quot;</span>, clientNum, message );</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#ae68a3c06b7e165aff56ca68702af10ef">trap_SendClientCommand</a>( command );</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;}</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    clientNum = <a class="code" href="../../d9/d79/cg__local_8h.html#ad299368fbdde364705c4d990205c413a">CG_CrosshairPlayer</a>();</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordflow">if</span> (clientNum == -1) {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a0c14c6673a462d0cd32c48889d5a8380">trap_Args</a>(message, 128);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <a class="code" href="../../d3/d86/q__shared_8c.html#ac588f8840a6e947e3284578c52bd624d">Com_sprintf</a>(command, 128, <span class="stringliteral">&quot;tell %i %s&quot;</span>, clientNum, message);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#ae68a3c06b7e165aff56ca68702af10ef">trap_SendClientCommand</a>(command);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -575,12 +574,12 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00080">80</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a0c3416aba83bcc8d5155df04f18a68b4">CG_Printf</a> (<span class="stringliteral">&quot;(%i %i %i) : %i\n&quot;</span>, (<span class="keywordtype">int</span>)<a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#acf44c993739c8e6dc03a1296065386f7">refdef</a>.<a class="code" href="../../df/d0f/structrefdef__t.html#adb9c1b8f508b6ce93d6973655d0e70fb">vieworg</a>[0],</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        (<span class="keywordtype">int</span>)<a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#acf44c993739c8e6dc03a1296065386f7">refdef</a>.<a class="code" href="../../df/d0f/structrefdef__t.html#adb9c1b8f508b6ce93d6973655d0e70fb">vieworg</a>[1], (<span class="keywordtype">int</span>)<a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#acf44c993739c8e6dc03a1296065386f7">refdef</a>.<a class="code" href="../../df/d0f/structrefdef__t.html#adb9c1b8f508b6ce93d6973655d0e70fb">vieworg</a>[2], </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        (<span class="keywordtype">int</span>)<a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#af4214a22821b866a0c79c054684642ec">refdefViewAngles</a>[<a class="code" href="../../de/d01/q__shared_8h.html#ac71b1e54b98dc1031873048bc61d0438">YAW</a>]);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00076">76</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;{</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="../../d9/d79/cg__local_8h.html#a0c3416aba83bcc8d5155df04f18a68b4">CG_Printf</a>(<span class="stringliteral">&quot;(%i %i %i) : %i\n&quot;</span>, (<span class="keywordtype">int</span>)<a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#acf44c993739c8e6dc03a1296065386f7">refdef</a>.<a class="code" href="../../df/d0f/structrefdef__t.html#adb9c1b8f508b6ce93d6973655d0e70fb">vieworg</a>[0],</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        (<span class="keywordtype">int</span>)<a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#acf44c993739c8e6dc03a1296065386f7">refdef</a>.<a class="code" href="../../df/d0f/structrefdef__t.html#adb9c1b8f508b6ce93d6973655d0e70fb">vieworg</a>[1], (<span class="keywordtype">int</span>)<a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#acf44c993739c8e6dc03a1296065386f7">refdef</a>.<a class="code" href="../../df/d0f/structrefdef__t.html#adb9c1b8f508b6ce93d6973655d0e70fb">vieworg</a>[2],</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        (<span class="keywordtype">int</span>)<a class="code" href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a>.<a class="code" href="../../d6/d62/structcg__t.html#af4214a22821b866a0c79c054684642ec">refdefViewAngles</a>[<a class="code" href="../../de/d01/q__shared_8h.html#ac71b1e54b98dc1031873048bc61d0438">YAW</a>]);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -605,48 +604,48 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00453">453</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html#l00481">481</a> of file <a class="el" href="../../df/d45/cg__consolecmds_8c_source.html">cg_consolecmds.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d79/cg__local_8h.html#af6d7c388e4bea4cc5cdd5b86a88423de">CG_ConsoleCommand()</a>, <a class="el" href="../../d9/d79/cg__local_8h.html#a75fc8a56df70e395cc5b176db1b08b24">CG_InitConsoleCommands()</a>, and <a class="el" href="../../d5/da8/sys__unix_8c.html#a0f5ce92b3123390c5d54ecc94cb1605d">Sys_Dialog()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d79/cg__local_8h.html#af6d7c388e4bea4cc5cdd5b86a88423de">CG_ConsoleCommand()</a>, and <a class="el" href="../../d9/d79/cg__local_8h.html#a75fc8a56df70e395cc5b176db1b08b24">CG_InitConsoleCommands()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aq__shared_8h_html_ac71b1e54b98dc1031873048bc61d0438"><div class="ttname"><a href="../../de/d01/q__shared_8h.html#ac71b1e54b98dc1031873048bc61d0438">YAW</a></div><div class="ttdeci">#define YAW</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00241">q_shared.h:241</a></div></div>
-<div class="ttc" id="acg__local_8h_html_a0c14c6673a462d0cd32c48889d5a8380"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a0c14c6673a462d0cd32c48889d5a8380">trap_Args</a></div><div class="ttdeci">void trap_Args(char *buffer, int bufferLength)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d50/cg__syscalls_8c_source.html#l00084">cg_syscalls.c:84</a></div></div>
-<div class="ttc" id="acg__local_8h_html_ad331853a99c126ea3565b4474631eae9"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#ad331853a99c126ea3565b4474631eae9">trap_Argv</a></div><div class="ttdeci">void trap_Argv(int n, char *buffer, int bufferLength)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d50/cg__syscalls_8c_source.html#l00080">cg_syscalls.c:80</a></div></div>
-<div class="ttc" id="astructcg__t_html_ac8ca7a6033235902868e54a7929dabfa"><div class="ttname"><a href="../../d6/d62/structcg__t.html#ac8ca7a6033235902868e54a7929dabfa">cg_t::scoresRequestTime</a></div><div class="ttdeci">int scoresRequestTime</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00531">cg_local.h:531</a></div></div>
-<div class="ttc" id="astructcg__t_html_af249ebbe8ada9e7cdd645e2f540b37fc"><div class="ttname"><a href="../../d6/d62/structcg__t.html#af249ebbe8ada9e7cdd645e2f540b37fc">cg_t::time</a></div><div class="ttdeci">int time</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00476">cg_local.h:476</a></div></div>
-<div class="ttc" id="astructrefdef__t_html_adb9c1b8f508b6ce93d6973655d0e70fb"><div class="ttname"><a href="../../df/d0f/structrefdef__t.html#adb9c1b8f508b6ce93d6973655d0e70fb">refdef_t::vieworg</a></div><div class="ttdeci">vec3_t vieworg</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d66/tr__types_8h_source.html#l00129">tr_types.h:129</a></div></div>
-<div class="ttc" id="acg__local_8h_html_a5cc10cd301a4668d316bcd1f47003c17"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a5cc10cd301a4668d316bcd1f47003c17">cg_cameraOrbit</a></div><div class="ttdeci">vmCvar_t cg_cameraOrbit</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l00173">cg_main.c:173</a></div></div>
-<div class="ttc" id="acg__local_8h_html_a073d0db44a98639953d1a87ea75ace39"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a></div><div class="ttdeci">cg_t cg</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l00085">cg_main.c:85</a></div></div>
-<div class="ttc" id="acg__local_8h_html_a2f3ab423476cd7aa99c999bbb2b5a6e5"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a></div><div class="ttdeci">void trap_Cvar_Set(const char *var_name, const char *value)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d50/cg__syscalls_8c_source.html#l00068">cg_syscalls.c:68</a></div></div>
-<div class="ttc" id="astructconsole_command__t_html_aa9b93fb6d2f9b90352f7790ffdae5fe9"><div class="ttname"><a href="../../d4/dae/structconsole_command__t.html#aa9b93fb6d2f9b90352f7790ffdae5fe9">consoleCommand_t::function</a></div><div class="ttdeci">void(* function)(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d45/cg__consolecmds_8c_source.html#l00450">cg_consolecmds.c:450</a></div></div>
+<div class="ttc" id="acg__local_8h_html_a0c14c6673a462d0cd32c48889d5a8380"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a0c14c6673a462d0cd32c48889d5a8380">trap_Args</a></div><div class="ttdeci">void trap_Args(char *buffer, int bufferLength)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d50/cg__syscalls_8c_source.html#l00111">cg_syscalls.c:111</a></div></div>
+<div class="ttc" id="acg__local_8h_html_ad331853a99c126ea3565b4474631eae9"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#ad331853a99c126ea3565b4474631eae9">trap_Argv</a></div><div class="ttdeci">void trap_Argv(int n, char *buffer, int bufferLength)</div><div class="ttdoc">This will fill the buffer pointed to by buffer with an argument to a client command where n is the ar...</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d50/cg__syscalls_8c_source.html#l00106">cg_syscalls.c:106</a></div></div>
+<div class="ttc" id="astructcg__t_html_ac8ca7a6033235902868e54a7929dabfa"><div class="ttname"><a href="../../d6/d62/structcg__t.html#ac8ca7a6033235902868e54a7929dabfa">cg_t::scoresRequestTime</a></div><div class="ttdeci">int scoresRequestTime</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00532">cg_local.h:532</a></div></div>
+<div class="ttc" id="astructcg__t_html_af249ebbe8ada9e7cdd645e2f540b37fc"><div class="ttname"><a href="../../d6/d62/structcg__t.html#af249ebbe8ada9e7cdd645e2f540b37fc">cg_t::time</a></div><div class="ttdeci">int time</div><div class="ttdoc">this is the time value that the client is rendering at.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00479">cg_local.h:479</a></div></div>
+<div class="ttc" id="astructrefdef__t_html_adb9c1b8f508b6ce93d6973655d0e70fb"><div class="ttname"><a href="../../df/d0f/structrefdef__t.html#adb9c1b8f508b6ce93d6973655d0e70fb">refdef_t::vieworg</a></div><div class="ttdeci">vec3_t vieworg</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d66/tr__types_8h_source.html#l00135">tr_types.h:135</a></div></div>
+<div class="ttc" id="acg__local_8h_html_a5cc10cd301a4668d316bcd1f47003c17"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a5cc10cd301a4668d316bcd1f47003c17">cg_cameraOrbit</a></div><div class="ttdeci">vmCvar_t cg_cameraOrbit</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l00174">cg_main.c:174</a></div></div>
+<div class="ttc" id="acg__local_8h_html_a073d0db44a98639953d1a87ea75ace39"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a073d0db44a98639953d1a87ea75ace39">cg</a></div><div class="ttdeci">cg_t cg</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l00086">cg_main.c:86</a></div></div>
+<div class="ttc" id="acg__local_8h_html_a2f3ab423476cd7aa99c999bbb2b5a6e5"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a2f3ab423476cd7aa99c999bbb2b5a6e5">trap_Cvar_Set</a></div><div class="ttdeci">void trap_Cvar_Set(const char *var_name, const char *value)</div><div class="ttdoc">This function searchs for the name of the vmCvar and stores the value into both the float and integer...</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d50/cg__syscalls_8c_source.html#l00072">cg_syscalls.c:72</a></div></div>
+<div class="ttc" id="astructconsole_command__t_html_aa9b93fb6d2f9b90352f7790ffdae5fe9"><div class="ttname"><a href="../../d4/dae/structconsole_command__t.html#aa9b93fb6d2f9b90352f7790ffdae5fe9">consoleCommand_t::function</a></div><div class="ttdeci">void(* function)(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d45/cg__consolecmds_8c_source.html#l00478">cg_consolecmds.c:478</a></div></div>
 <div class="ttc" id="aq__shared_8h_html_ad3a2e655ad8e14b220a3571a5d5d69df"><div class="ttname"><a href="../../de/d01/q__shared_8h.html#ad3a2e655ad8e14b220a3571a5d5d69df">MAX_TOKEN_CHARS</a></div><div class="ttdeci">#define MAX_TOKEN_CHARS</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00248">q_shared.h:248</a></div></div>
-<div class="ttc" id="acg__local_8h_html_a9d580339ac1af7fe05a0688702307c60"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a9d580339ac1af7fe05a0688702307c60">CG_Argv</a></div><div class="ttdeci">const char * CG_Argv(int arg)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l00472">cg_main.c:472</a></div></div>
-<div class="ttc" id="acg__local_8h_html_a2e13a225b5da8e2dc5431319cf5a8144"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a2e13a225b5da8e2dc5431319cf5a8144">trap_Cvar_VariableStringBuffer</a></div><div class="ttdeci">void trap_Cvar_VariableStringBuffer(const char *var_name, char *buffer, int bufsize)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d50/cg__syscalls_8c_source.html#l00072">cg_syscalls.c:72</a></div></div>
-<div class="ttc" id="acg__consolecmds_8c_html_af5f93119dd66457ccc2c46f4468aaf93"><div class="ttname"><a href="../../df/d45/cg__consolecmds_8c.html#af5f93119dd66457ccc2c46f4468aaf93">commands</a></div><div class="ttdeci">static consoleCommand_t commands[]</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d45/cg__consolecmds_8c_source.html#l00453">cg_consolecmds.c:453</a></div></div>
-<div class="ttc" id="acg__local_8h_html_afa5d7a47e52a461453f0b24206104e18"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#afa5d7a47e52a461453f0b24206104e18">CG_LastAttacker</a></div><div class="ttdeci">int CG_LastAttacker(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l00416">cg_main.c:416</a></div></div>
-<div class="ttc" id="astructvm_cvar__t_html_ad0e200567abb45c4a6e8727ccb6aba74"><div class="ttname"><a href="../../d0/dab/structvm_cvar__t.html#ad0e200567abb45c4a6e8727ccb6aba74">vmCvar_t::value</a></div><div class="ttdeci">float value</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00962">q_shared.h:962</a></div></div>
+<div class="ttc" id="acg__local_8h_html_a9d580339ac1af7fe05a0688702307c60"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a9d580339ac1af7fe05a0688702307c60">CG_Argv</a></div><div class="ttdeci">const char * CG_Argv(int arg)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l00482">cg_main.c:482</a></div></div>
+<div class="ttc" id="acg__local_8h_html_a2e13a225b5da8e2dc5431319cf5a8144"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a2e13a225b5da8e2dc5431319cf5a8144">trap_Cvar_VariableStringBuffer</a></div><div class="ttdeci">void trap_Cvar_VariableStringBuffer(const char *var_name, char *buffer, int bufsize)</div><div class="ttdoc">This trap copies the content of a cvar named by var_name into a mod-space string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d50/cg__syscalls_8c_source.html#l00096">cg_syscalls.c:96</a></div></div>
+<div class="ttc" id="acg__consolecmds_8c_html_af5f93119dd66457ccc2c46f4468aaf93"><div class="ttname"><a href="../../df/d45/cg__consolecmds_8c.html#af5f93119dd66457ccc2c46f4468aaf93">commands</a></div><div class="ttdeci">static consoleCommand_t commands[]</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d45/cg__consolecmds_8c_source.html#l00481">cg_consolecmds.c:481</a></div></div>
+<div class="ttc" id="acg__local_8h_html_afa5d7a47e52a461453f0b24206104e18"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#afa5d7a47e52a461453f0b24206104e18">CG_LastAttacker</a></div><div class="ttdeci">int CG_LastAttacker(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l00421">cg_main.c:421</a></div></div>
+<div class="ttc" id="astructvm_cvar__t_html_ad0e200567abb45c4a6e8727ccb6aba74"><div class="ttname"><a href="../../d0/dab/structvm_cvar__t.html#ad0e200567abb45c4a6e8727ccb6aba74">vmCvar_t::value</a></div><div class="ttdeci">float value</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00982">q_shared.h:982</a></div></div>
 <div class="ttc" id="acg__local_8h_html_a0c3416aba83bcc8d5155df04f18a68b4"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a0c3416aba83bcc8d5155df04f18a68b4">CG_Printf</a></div><div class="ttdeci">void QDECL CG_Printf(const char *msg,...) __attribute__((format(printf</div></div>
-<div class="ttc" id="astructcg__t_html_a3830c6dd83019f0ef5007f5e161be181"><div class="ttname"><a href="../../d6/d62/structcg__t.html#a3830c6dd83019f0ef5007f5e161be181">cg_t::numScores</a></div><div class="ttdeci">int numScores</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00532">cg_local.h:532</a></div></div>
-<div class="ttc" id="astructcg__t_html_acf44c993739c8e6dc03a1296065386f7"><div class="ttname"><a href="../../d6/d62/structcg__t.html#acf44c993739c8e6dc03a1296065386f7">cg_t::refdef</a></div><div class="ttdeci">refdef_t refdef</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00519">cg_local.h:519</a></div></div>
-<div class="ttc" id="acg__local_8h_html_afa77cf8772926efaf0c0a1d63ec2408d"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a></div><div class="ttdeci">void trap_AddCommand(const char *cmdName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d50/cg__syscalls_8c_source.html#l00112">cg_syscalls.c:112</a></div></div>
-<div class="ttc" id="acg__local_8h_html_a73c23dba5126139623bc0b3cdcc2dcef"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a73c23dba5126139623bc0b3cdcc2dcef">cg_viewsize</a></div><div class="ttdeci">vmCvar_t cg_viewsize</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l00128">cg_main.c:128</a></div></div>
-<div class="ttc" id="aq__shared_8c_html_ad3e9eb4ad33935ff8f263c167b0ae3dc"><div class="ttname"><a href="../../d3/d86/q__shared_8c.html#ad3e9eb4ad33935ff8f263c167b0ae3dc">Q_stricmp</a></div><div class="ttdeci">int Q_stricmp(const char *s1, const char *s2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d86/q__shared_8c_source.html#l00884">q_shared.c:884</a></div></div>
+<div class="ttc" id="astructcg__t_html_a3830c6dd83019f0ef5007f5e161be181"><div class="ttname"><a href="../../d6/d62/structcg__t.html#a3830c6dd83019f0ef5007f5e161be181">cg_t::numScores</a></div><div class="ttdeci">int numScores</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00533">cg_local.h:533</a></div></div>
+<div class="ttc" id="astructcg__t_html_acf44c993739c8e6dc03a1296065386f7"><div class="ttname"><a href="../../d6/d62/structcg__t.html#acf44c993739c8e6dc03a1296065386f7">cg_t::refdef</a></div><div class="ttdeci">refdef_t refdef</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00520">cg_local.h:520</a></div></div>
+<div class="ttc" id="acg__local_8h_html_afa77cf8772926efaf0c0a1d63ec2408d"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#afa77cf8772926efaf0c0a1d63ec2408d">trap_AddCommand</a></div><div class="ttdeci">void trap_AddCommand(const char *cmdName)</div><div class="ttdoc">The string cmdName is added to a tab-completion list for the console.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d50/cg__syscalls_8c_source.html#l00161">cg_syscalls.c:161</a></div></div>
+<div class="ttc" id="acg__local_8h_html_a73c23dba5126139623bc0b3cdcc2dcef"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a73c23dba5126139623bc0b3cdcc2dcef">cg_viewsize</a></div><div class="ttdeci">vmCvar_t cg_viewsize</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l00129">cg_main.c:129</a></div></div>
+<div class="ttc" id="aq__shared_8c_html_ad3e9eb4ad33935ff8f263c167b0ae3dc"><div class="ttname"><a href="../../d3/d86/q__shared_8c.html#ad3e9eb4ad33935ff8f263c167b0ae3dc">Q_stricmp</a></div><div class="ttdeci">int Q_stricmp(const char *s1, const char *s2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d86/q__shared_8c_source.html#l00872">q_shared.c:872</a></div></div>
 <div class="ttc" id="aq__shared_8h_html_a841615a63f4a3aa18337897953874909"><div class="ttname"><a href="../../de/d01/q__shared_8h.html#a841615a63f4a3aa18337897953874909">ARRAY_LEN</a></div><div class="ttdeci">#define ARRAY_LEN(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00236">q_shared.h:236</a></div></div>
-<div class="ttc" id="acg__local_8h_html_ad299368fbdde364705c4d990205c413a"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#ad299368fbdde364705c4d990205c413a">CG_CrosshairPlayer</a></div><div class="ttdeci">int CG_CrosshairPlayer(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l00409">cg_main.c:409</a></div></div>
+<div class="ttc" id="acg__local_8h_html_ad299368fbdde364705c4d990205c413a"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#ad299368fbdde364705c4d990205c413a">CG_CrosshairPlayer</a></div><div class="ttdeci">int CG_CrosshairPlayer(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l00413">cg_main.c:413</a></div></div>
 <div class="ttc" id="aq__shared_8h_html_a110846a9664bbd925f955266e60e9136a9a60e3a3b7123e30c470bd5823cde09d"><div class="ttname"><a href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136a9a60e3a3b7123e30c470bd5823cde09d">qtrue</a></div><div class="ttdeci">@ qtrue</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00201">q_shared.h:201</a></div></div>
-<div class="ttc" id="astructcg__t_html_ab860df06e1ec31291787cfdb8cf47c89"><div class="ttname"><a href="../../d6/d62/structcg__t.html#ab860df06e1ec31291787cfdb8cf47c89">cg_t::scoreFadeTime</a></div><div class="ttdeci">int scoreFadeTime</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00538">cg_local.h:538</a></div></div>
-<div class="ttc" id="aq__shared_8c_html_abb28e4bfc5e70aa5cbedc383741c6faf"><div class="ttname"><a href="../../d3/d86/q__shared_8c.html#abb28e4bfc5e70aa5cbedc383741c6faf">va</a></div><div class="ttdeci">char *QDECL va(char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d86/q__shared_8c_source.html#l01036">q_shared.c:1036</a></div></div>
-<div class="ttc" id="acg__local_8h_html_ae68a3c06b7e165aff56ca68702af10ef"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#ae68a3c06b7e165aff56ca68702af10ef">trap_SendClientCommand</a></div><div class="ttdeci">void trap_SendClientCommand(const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d50/cg__syscalls_8c_source.html#l00120">cg_syscalls.c:120</a></div></div>
-<div class="ttc" id="astructcg__t_html_a4ab5ae310a1c7a1f9cec7ca0f398aa19"><div class="ttname"><a href="../../d6/d62/structcg__t.html#a4ab5ae310a1c7a1f9cec7ca0f398aa19">cg_t::showScores</a></div><div class="ttdeci">qboolean showScores</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00536">cg_local.h:536</a></div></div>
+<div class="ttc" id="astructcg__t_html_ab860df06e1ec31291787cfdb8cf47c89"><div class="ttname"><a href="../../d6/d62/structcg__t.html#ab860df06e1ec31291787cfdb8cf47c89">cg_t::scoreFadeTime</a></div><div class="ttdeci">int scoreFadeTime</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00539">cg_local.h:539</a></div></div>
+<div class="ttc" id="aq__shared_8c_html_abb28e4bfc5e70aa5cbedc383741c6faf"><div class="ttname"><a href="../../d3/d86/q__shared_8c.html#abb28e4bfc5e70aa5cbedc383741c6faf">va</a></div><div class="ttdeci">char *QDECL va(char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d86/q__shared_8c_source.html#l01023">q_shared.c:1023</a></div></div>
+<div class="ttc" id="acg__local_8h_html_ae68a3c06b7e165aff56ca68702af10ef"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#ae68a3c06b7e165aff56ca68702af10ef">trap_SendClientCommand</a></div><div class="ttdeci">void trap_SendClientCommand(const char *s)</div><div class="ttdoc">Sends command string as a client command directly to server.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d50/cg__syscalls_8c_source.html#l00205">cg_syscalls.c:205</a></div></div>
+<div class="ttc" id="astructcg__t_html_a4ab5ae310a1c7a1f9cec7ca0f398aa19"><div class="ttname"><a href="../../d6/d62/structcg__t.html#a4ab5ae310a1c7a1f9cec7ca0f398aa19">cg_t::showScores</a></div><div class="ttdeci">qboolean showScores</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00537">cg_local.h:537</a></div></div>
 <div class="ttc" id="aq__shared_8h_html_a110846a9664bbd925f955266e60e9136a0e538a5d43e68d2de4eb96c77855de40"><div class="ttname"><a href="../../de/d01/q__shared_8h.html#a110846a9664bbd925f955266e60e9136a0e538a5d43e68d2de4eb96c77855de40">qfalse</a></div><div class="ttdeci">@ qfalse</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00201">q_shared.h:201</a></div></div>
-<div class="ttc" id="astructcg__t_html_af4214a22821b866a0c79c054684642ec"><div class="ttname"><a href="../../d6/d62/structcg__t.html#af4214a22821b866a0c79c054684642ec">cg_t::refdefViewAngles</a></div><div class="ttdeci">vec3_t refdefViewAngles</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00520">cg_local.h:520</a></div></div>
-<div class="ttc" id="astructvm_cvar__t_html_a692c1a403e65c64a1f9309bca9f47007"><div class="ttname"><a href="../../d0/dab/structvm_cvar__t.html#a692c1a403e65c64a1f9309bca9f47007">vmCvar_t::integer</a></div><div class="ttdeci">int integer</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00963">q_shared.h:963</a></div></div>
-<div class="ttc" id="aq__shared_8c_html_ac588f8840a6e947e3284578c52bd624d"><div class="ttname"><a href="../../d3/d86/q__shared_8c.html#ac588f8840a6e947e3284578c52bd624d">Com_sprintf</a></div><div class="ttdeci">int QDECL Com_sprintf(char *dest, int size, const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d86/q__shared_8c_source.html#l01013">q_shared.c:1013</a></div></div>
-<div class="ttc" id="acg__local_8h_html_a5c7ce82b4d954603a0f6f281acf602e5"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a5c7ce82b4d954603a0f6f281acf602e5">CG_BuildSpectatorString</a></div><div class="ttdeci">void CG_BuildSpectatorString(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l01108">cg_main.c:1108</a></div></div>
+<div class="ttc" id="astructcg__t_html_af4214a22821b866a0c79c054684642ec"><div class="ttname"><a href="../../d6/d62/structcg__t.html#af4214a22821b866a0c79c054684642ec">cg_t::refdefViewAngles</a></div><div class="ttdeci">vec3_t refdefViewAngles</div><div class="ttdoc">will be converted to refdef.viewaxis.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d79/cg__local_8h_source.html#l00521">cg_local.h:521</a></div></div>
+<div class="ttc" id="astructvm_cvar__t_html_a692c1a403e65c64a1f9309bca9f47007"><div class="ttname"><a href="../../d0/dab/structvm_cvar__t.html#a692c1a403e65c64a1f9309bca9f47007">vmCvar_t::integer</a></div><div class="ttdeci">int integer</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d01/q__shared_8h_source.html#l00983">q_shared.h:983</a></div></div>
+<div class="ttc" id="aq__shared_8c_html_ac588f8840a6e947e3284578c52bd624d"><div class="ttname"><a href="../../d3/d86/q__shared_8c.html#ac588f8840a6e947e3284578c52bd624d">Com_sprintf</a></div><div class="ttdeci">int QDECL Com_sprintf(char *dest, int size, const char *fmt,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d86/q__shared_8c_source.html#l01000">q_shared.c:1000</a></div></div>
+<div class="ttc" id="acg__local_8h_html_a5c7ce82b4d954603a0f6f281acf602e5"><div class="ttname"><a href="../../d9/d79/cg__local_8h.html#a5c7ce82b4d954603a0f6f281acf602e5">CG_BuildSpectatorString</a></div><div class="ttdeci">void CG_BuildSpectatorString(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d47/cg__main_8c_source.html#l01115">cg_main.c:1115</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

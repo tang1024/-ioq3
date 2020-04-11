@@ -9,7 +9,6 @@ var dir_caf472de67aa22c619d3de48f5652be0 =
     [ "sys_local.h", "dd/dd9/sys__local_8h.html", "dd/dd9/sys__local_8h" ],
     [ "sys_main.c", "d5/dd6/sys__main_8c.html", "d5/dd6/sys__main_8c" ],
     [ "sys_osx.m", "d5/de3/sys__osx_8m.html", "d5/de3/sys__osx_8m" ],
-    [ "sys_unix.c", "d5/da8/sys__unix_8c.html", "d5/da8/sys__unix_8c" ],
     [ "sys_win32.c", "db/db6/sys__win32_8c.html", "db/db6/sys__win32_8c" ],
     [ "win_resource.h", "d5/d98/win__resource_8h.html", "d5/d98/win__resource_8h" ]
 ];
