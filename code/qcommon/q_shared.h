@@ -19,12 +19,15 @@ along with Quake III Arena source code; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 ===========================================================================
 */
-//
+
+/**
+ * included first by ALL program modules.
+ * @file
+ *
+ * A user mod should never modify this file.
+ */
 #ifndef __Q_SHARED_H
 #define __Q_SHARED_H
-
-// q_shared.h -- included first by ALL program modules.
-// A user mod should never modify this file
 
 #ifdef STANDALONE
 #define PRODUCT_NAME                "iofoo3"
@@ -43,29 +46,29 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #else
 #define PRODUCT_NAME                "ioq3"
 #define BASEGAME                    "baseq3"
-#define CLIENT_WINDOW_TITLE        "ioquake3"
-#define CLIENT_WINDOW_MIN_TITLE    "ioq3"
-#define HOMEPATH_NAME_UNIX        ".q3a"
-#define HOMEPATH_NAME_WIN            "Quake3"
+#define CLIENT_WINDOW_TITLE         "ioquake3"
+#define CLIENT_WINDOW_MIN_TITLE     "ioq3"
+#define HOMEPATH_NAME_UNIX          ".q3a"
+#define HOMEPATH_NAME_WIN           "Quake3"
 #define HOMEPATH_NAME_MACOSX        HOMEPATH_NAME_WIN
-#define STEAMPATH_NAME            "Quake 3 Arena"
-#define STEAMPATH_APPID            "2200"
-#define GOGPATH_ID                "1441704920"
-#define GAMENAME_FOR_MASTER        "Quake3Arena"
-#define CINEMATICS_LOGO        "idlogo.RoQ"
-#define CINEMATICS_INTRO        "intro.RoQ"
+#define STEAMPATH_NAME              "Quake 3 Arena"
+#define STEAMPATH_APPID             "2200"
+#define GOGPATH_ID                  "1441704920"
+#define GAMENAME_FOR_MASTER         "Quake3Arena"
+#define CINEMATICS_LOGO             "idlogo.RoQ"
+#define CINEMATICS_INTRO            "intro.RoQ"
 #define LEGACY_PROTOCOL
 #endif
 
-// Heartbeat for dpmaster protocol. You shouldn't change this unless you know what you're doing
+/// Heartbeat for dpmaster protocol. You shouldn't change this unless you know what you're doing.
 #define HEARTBEAT_FOR_MASTER        "DarkPlaces"
 
-// When com_gamename is LEGACY_MASTER_GAMENAME, use quake3 master protocol.
-// You shouldn't change this unless you know what you're doing
-#define LEGACY_MASTER_GAMENAME        "Quake3Arena"
+/// When com_gamename is LEGACY_MASTER_GAMENAME, use quake3 master protocol.
+/// You shouldn't change this unless you know what you're doing.
+#define LEGACY_MASTER_GAMENAME         "Quake3Arena"
 #define LEGACY_HEARTBEAT_FOR_MASTER    "QuakeArena-1"
 
-#define BASETA                "missionpack"
+#define BASETA  "missionpack"
 
 #ifndef PRODUCT_VERSION
 #define PRODUCT_VERSION "1.36"
@@ -77,17 +80,17 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 #define Q3_VERSION PRODUCT_NAME " " PRODUCT_VERSION
 
-#define MAX_TEAMNAME        32
-#define MAX_MASTER_SERVERS      5    // number of supported master servers
+#define MAX_TEAMNAME            32
+#define MAX_MASTER_SERVERS      5    ///< number of supported master servers.
 
-#define DEMOEXT    "dm_"            // standard demo extension
+#define DEMOEXT    "dm_"             ///< standard demo extension.
 
 #ifdef _MSC_VER
 
-#pragma warning(disable : 4018)     // signed/unsigned mismatch
+#pragma warning(disable : 4018)     ///< signed/unsigned mismatch.
 #pragma warning(disable : 4032)
 #pragma warning(disable : 4051)
-#pragma warning(disable : 4057)        // slightly different base types
+#pragma warning(disable : 4057)     ///< slightly different base types.
 #pragma warning(disable : 4100)        // unreferenced formal parameter
 #pragma warning(disable : 4115)
 #pragma warning(disable : 4125)        // decimal digit terminates octal escape sequence
