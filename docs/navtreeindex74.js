@@ -1,6 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"dc/d06/structnetadr__t.html#a4b288c3a6e42c3e3fb3797156954b36c":[0,0,320,0],
 "dc/d06/structnetadr__t.html#a8399fb576c81d6a23ae5be8001429567":[0,0,320,2],
 "dc/d06/structnetadr__t.html#ad47d576d5d3fc33ea4a85bc0563cb095":[0,0,320,3],
 "dc/d06/structnetadr__t.html#af62ca9d5dc8e790ae8bbdadc139bb8ee":[0,0,320,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX74 =
 "dc/d0e/keycodes_8h.html#ae017d846c66872cd3b9c2770b966862dae94ebcec1352b3d93851b4d5e3d49270":[1,0,0,2,14,2,204],
 "dc/d0e/keycodes_8h.html#ae017d846c66872cd3b9c2770b966862dae99608d57300d43c53baaf76d4024fbc":[1,0,0,2,14,2,234],
 "dc/d0e/keycodes_8h.html#ae017d846c66872cd3b9c2770b966862daeabaad153c576fe6ba78db2a40345ea1":[1,0,0,2,14,2,53],
-"dc/d0e/keycodes_8h.html#ae017d846c66872cd3b9c2770b966862daeb72432edef174278705d068aea68841":[1,0,0,2,14,2,112]
+"dc/d0e/keycodes_8h.html#ae017d846c66872cd3b9c2770b966862daeb72432edef174278705d068aea68841":[1,0,0,2,14,2,112],
+"dc/d0e/keycodes_8h.html#ae017d846c66872cd3b9c2770b966862daebb96b2ca85c5090322ff9813f4db357":[1,0,0,2,14,2,228]
 };

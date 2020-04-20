@@ -110,7 +110,6 @@ var files_8c =
     [ "paksort", "d8/d8c/files_8c.html#a25a8e0c344d0b412acb449c3076d5274", null ],
     [ "Sys_ConcatenateFileLists", "d8/d8c/files_8c.html#ad06f3a08b27ffe3a721b0d726e0fa8f7", null ],
     [ "Sys_CountFileList", "d8/d8c/files_8c.html#a1a1f8b60e7b74de9e8370a54c0e13fb6", null ],
-    [ "com_fullyInitialized", "d8/d8c/files_8c.html#a2e77a0dee4708a102d3c6ad795ae5b6a", null ],
     [ "fs_basegame", "d8/d8c/files_8c.html#a9b7aef69f91c6fd24c87dc983cfee937", null ],
     [ "fs_basepath", "d8/d8c/files_8c.html#a938c473ecd04cd5f883e6da32d9e7e4a", null ],
     [ "fs_checksumFeed", "d8/d8c/files_8c.html#a40b145fdbc84b66bb8d3a901c09c79ef", null ],

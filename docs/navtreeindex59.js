@@ -1,6 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"d9/d2d/be__ai__goal_8h.html#a8bd35dc5e75e168957cc8e6d311512bd":[1,0,0,0,35,18],
 "d9/d2d/be__ai__goal_8h.html#a9900747e2c6d5ff56fe20545cc71fe88":[1,0,0,0,35,38],
 "d9/d2d/be__ai__goal_8h.html#a9c6f450b8031701f9e9f870afb2a85f1":[1,0,0,0,35,34],
 "d9/d2d/be__ai__goal_8h.html#a9d4451314af592d32577c7b06c338d31":[1,0,0,0,35,24],
@@ -249,5 +248,6 @@ var NAVTREEINDEX59 =
 "d9/d5f/ui__spskill_8c.html#a0daa5ee8436ed57d2b4fe71f561f4824":[1,0,0,4,41,11],
 "d9/d5f/ui__spskill_8c.html#a13a66c260f9c8612b6fd38be141f70d3":[1,0,0,4,41,24],
 "d9/d5f/ui__spskill_8c.html#a14953b19c872300499b2d679a7f06585":[1,0,0,4,41,25],
-"d9/d5f/ui__spskill_8c.html#a185d549ca8bdf905acd746d1c81ff5ab":[1,0,0,4,41,19]
+"d9/d5f/ui__spskill_8c.html#a185d549ca8bdf905acd746d1c81ff5ab":[1,0,0,4,41,19],
+"d9/d5f/ui__spskill_8c.html#a1a7b0f2d51c54f0f47c6be951cdf612d":[1,0,0,4,41,20]
 };

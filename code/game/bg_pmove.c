@@ -21,7 +21,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 /**
- * Both games player movement code takes a playerstate and 
+ * Both games player movement code takes a playerstate and
  * a usercmd as input and returns a modifed playerstate.
  * @file
  */

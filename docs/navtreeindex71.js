@@ -1,6 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"db/d01/qfiles_8h.html#a8bf502cca6006538e730f9b1d254ee58":[1,0,0,5,29,87],
 "db/d01/qfiles_8h.html#a931733eb11e2ba9beefd8e6f30f4495c":[1,0,0,5,29,99],
 "db/d01/qfiles_8h.html#a93ecdc86f16c24631c0920d830bae54d":[1,0,0,5,29,52],
 "db/d01/qfiles_8h.html#a9d373a9b65ff25b2db84c07394e1c212":[1,0,0,5,29,32],
@@ -249,5 +248,6 @@ var NAVTREEINDEX71 =
 "db/d51/structarenaservers__t.html#a02e45ef8f3694bcb436ad90d0bafa2f6":[0,0,39,16],
 "db/d51/structarenaservers__t.html#a0dc2743b5562279cdc67d03dbf5470c0":[0,0,39,8],
 "db/d51/structarenaservers__t.html#a112611c137993f0181a420f4fb226cbd":[0,0,39,25],
-"db/d51/structarenaservers__t.html#a12a3b7033ff9f866fed8530a1d92431e":[0,0,39,13]
+"db/d51/structarenaservers__t.html#a12a3b7033ff9f866fed8530a1d92431e":[0,0,39,13],
+"db/d51/structarenaservers__t.html#a140e854a19e4d610bd6ecbdcd488f3ea":[0,0,39,5]
 };

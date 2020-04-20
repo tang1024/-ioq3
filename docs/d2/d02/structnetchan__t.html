@@ -100,6 +100,9 @@ $(document).ready(function(){initNavTree('d2/d02/structnetchan__t.html','../../'
 </div><!--header-->
 <div class="contents">
 
+<p>Netchan handles packet fragmentation and out of order / duplicate suppression.  
+ <a href="../../d2/d02/structnetchan__t.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -107,10 +110,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af9e0429ab08cd277a4c35ceb2da05ae0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/df7/qcommon_8h.html#ae54dd2df6a0b4c64ba8b22b3d3d4c2a1">netsrc_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d02/structnetchan__t.html#af9e0429ab08cd277a4c35ceb2da05ae0">sock</a></td></tr>
 <tr class="separator:af9e0429ab08cd277a4c35ceb2da05ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3328104786c3f62bced87420ae98d30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d02/structnetchan__t.html#ab3328104786c3f62bced87420ae98d30">dropped</a></td></tr>
+<tr class="memdesc:ab3328104786c3f62bced87420ae98d30"><td class="mdescLeft">&#160;</td><td class="mdescRight">between last packet and previous.  <a href="../../d2/d02/structnetchan__t.html#ab3328104786c3f62bced87420ae98d30">More...</a><br /></td></tr>
 <tr class="separator:ab3328104786c3f62bced87420ae98d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accc89940b6f4bebbd1b70cfaa94ae0e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d06/structnetadr__t.html">netadr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d02/structnetchan__t.html#accc89940b6f4bebbd1b70cfaa94ae0e9">remoteAddress</a></td></tr>
 <tr class="separator:accc89940b6f4bebbd1b70cfaa94ae0e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8410200abea41ced00600ff2a3ab213b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d02/structnetchan__t.html#a8410200abea41ced00600ff2a3ab213b">qport</a></td></tr>
+<tr class="memdesc:a8410200abea41ced00600ff2a3ab213b"><td class="mdescLeft">&#160;</td><td class="mdescRight">qport value to write when transmitting.  <a href="../../d2/d02/structnetchan__t.html#a8410200abea41ced00600ff2a3ab213b">More...</a><br /></td></tr>
 <tr class="separator:a8410200abea41ced00600ff2a3ab213b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b140e05b8b57df32d74e447fec97db0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d02/structnetchan__t.html#a3b140e05b8b57df32d74e447fec97db0">incomingSequence</a></td></tr>
 <tr class="separator:a3b140e05b8b57df32d74e447fec97db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,8 +143,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ae1aaa83ab53dac40fd5474b8d780b931"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00204">204</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<div class="textblock"><p>Netchan handles packet fragmentation and out of order / duplicate suppression. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00205">205</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a71b24f62cefb109a678b185404408a8e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a71b24f62cefb109a678b185404408a8e">&#9670;&nbsp;</a></span>challenge</h2>
@@ -153,7 +159,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00228">228</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00229">229</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#a8c2eb9d798a98d3f661177e47e5d7109">Netchan_Process()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#ac9a67d812f30981def34d40c50d393ad">Netchan_Setup()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#a24c24af2f3de8bb057cfc826adf8ef64">Netchan_Transmit()</a>, and <a class="el" href="../../d1/df7/qcommon_8h.html#a230ca68c200b74a3299fd194e5ae6192">Netchan_TransmitNextFragment()</a>.</p>
 
@@ -171,7 +177,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00207">207</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p>between last packet and previous. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00208">208</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#a8c2eb9d798a98d3f661177e47e5d7109">Netchan_Process()</a>.</p>
 
@@ -189,7 +197,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00219">219</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00220">220</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#a8c2eb9d798a98d3f661177e47e5d7109">Netchan_Process()</a>.</p>
 
@@ -207,7 +215,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00218">218</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00219">219</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#a8c2eb9d798a98d3f661177e47e5d7109">Netchan_Process()</a>.</p>
 
@@ -225,7 +233,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00217">217</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00218">218</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#a8c2eb9d798a98d3f661177e47e5d7109">Netchan_Process()</a>.</p>
 
@@ -243,7 +251,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00213">213</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00214">214</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#a8c2eb9d798a98d3f661177e47e5d7109">Netchan_Process()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#ac9a67d812f30981def34d40c50d393ad">Netchan_Setup()</a>, and <a class="el" href="../../d1/df7/qcommon_8h.html#a24c24af2f3de8bb057cfc826adf8ef64">Netchan_Transmit()</a>.</p>
 
@@ -261,7 +269,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00230">230</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00231">231</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#a24c24af2f3de8bb057cfc826adf8ef64">Netchan_Transmit()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#a230ca68c200b74a3299fd194e5ae6192">Netchan_TransmitNextFragment()</a>, and <a class="el" href="../../da/d74/sv__main_8c.html#abb31319b438cd9bb4beb2ee71863cd26">SV_RateMsec()</a>.</p>
 
@@ -279,7 +287,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00229">229</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00230">230</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#a24c24af2f3de8bb057cfc826adf8ef64">Netchan_Transmit()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#a230ca68c200b74a3299fd194e5ae6192">Netchan_TransmitNextFragment()</a>, and <a class="el" href="../../da/d74/sv__main_8c.html#abb31319b438cd9bb4beb2ee71863cd26">SV_RateMsec()</a>.</p>
 
@@ -297,7 +305,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00214">214</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00215">215</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d53/cl__parse_8c.html#a2fc30e6ef0c2eb26cd0c353c76743c0b">CL_ParseSnapshot()</a>, <a class="el" href="../../d3/dee/cl__input_8c.html#a4c528957abba6cee79631cc73fd0ef3a">CL_ReadyToSendPacket()</a>, <a class="el" href="../../d8/de1/client_8h.html#ab20a702f17d88804ccb702d963364c12">CL_WritePacket()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#ac9a67d812f30981def34d40c50d393ad">Netchan_Setup()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#a24c24af2f3de8bb057cfc826adf8ef64">Netchan_Transmit()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#a230ca68c200b74a3299fd194e5ae6192">Netchan_TransmitNextFragment()</a>, <a class="el" href="../../d3/da3/sv__snapshot_8c.html#ae67ec9b94f54f62b324e1735d35f0cf1">SV_BuildClientSnapshot()</a>, <a class="el" href="../../df/d6f/sv__net__chan_8c.html#aa7121395320e925204406e59de013dcb">SV_Netchan_Encode()</a>, <a class="el" href="../../db/d01/sv__client_8c.html#aaa4537b644d57fe41af7852f8c35e90d">SV_SendClientGameState()</a>, <a class="el" href="../../d3/da3/sv__snapshot_8c.html#a082f4d68accb5b946e1e80071400f25f">SV_SendMessageToClient()</a>, and <a class="el" href="../../d3/da3/sv__snapshot_8c.html#afda25d16312208ab9803fb57965905bb">SV_WriteSnapshotToClient()</a>.</p>
 
@@ -315,7 +323,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00210">210</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p>qport value to write when transmitting. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00211">211</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#ac9a67d812f30981def34d40c50d393ad">Netchan_Setup()</a>.</p>
 
@@ -333,7 +343,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00209">209</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00210">210</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#ab5d93672c78a1b34db0e26fe1cb7575b">CL_PacketEvent()</a>, <a class="el" href="../../d3/d38/cl__main_8c.html#acdf6ad2f7ddb20447db19b88d3c5cfd0">CL_Rcon_f()</a>, <a class="el" href="../../d3/dee/cl__input_8c.html#a4c528957abba6cee79631cc73fd0ef3a">CL_ReadyToSendPacket()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#a8c2eb9d798a98d3f661177e47e5d7109">Netchan_Process()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#ac9a67d812f30981def34d40c50d393ad">Netchan_Setup()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#a24c24af2f3de8bb057cfc826adf8ef64">Netchan_Transmit()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#a230ca68c200b74a3299fd194e5ae6192">Netchan_TransmitNextFragment()</a>, <a class="el" href="../../db/d01/sv__client_8c.html#ae8414b34853285827a1cfd61613f7b19">SV_DropClient()</a>, <a class="el" href="../../d6/df0/sv__ccmds_8c.html#ac292173e7969fd0691a340fc5e9c1274">SV_MapRestart_f()</a>, <a class="el" href="../../da/d74/sv__main_8c.html#abb31319b438cd9bb4beb2ee71863cd26">SV_RateMsec()</a>, <a class="el" href="../../d3/da3/sv__snapshot_8c.html#aaf6d788d001638f029cfab34a9468ae8">SV_SendClientMessages()</a>, <a class="el" href="../../d5/d49/sv__init_8c.html#ac2c5754f02da3857796506ea5271ccee">SV_SpawnServer()</a>, and <a class="el" href="../../da/d74/sv__main_8c.html#a3f87c33732f3131b61434d512a3f3be4">SVC_Info()</a>.</p>
 
@@ -351,7 +361,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00205">205</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00206">206</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#a8c2eb9d798a98d3f661177e47e5d7109">Netchan_Process()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#ac9a67d812f30981def34d40c50d393ad">Netchan_Setup()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#a24c24af2f3de8bb057cfc826adf8ef64">Netchan_Transmit()</a>, and <a class="el" href="../../d1/df7/qcommon_8h.html#a230ca68c200b74a3299fd194e5ae6192">Netchan_TransmitNextFragment()</a>.</p>
 
@@ -369,7 +379,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00226">226</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00227">227</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#a24c24af2f3de8bb057cfc826adf8ef64">Netchan_Transmit()</a>, and <a class="el" href="../../d1/df7/qcommon_8h.html#a230ca68c200b74a3299fd194e5ae6192">Netchan_TransmitNextFragment()</a>.</p>
 
@@ -387,7 +397,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00223">223</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00224">224</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/d89/cl__net__chan_8c.html#aeee713eba7c8cf4938798b0f9e97d7a1">CL_Netchan_TransmitNextFragment()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#a24c24af2f3de8bb057cfc826adf8ef64">Netchan_Transmit()</a>, <a class="el" href="../../d1/df7/qcommon_8h.html#a230ca68c200b74a3299fd194e5ae6192">Netchan_TransmitNextFragment()</a>, <a class="el" href="../../df/d6f/sv__net__chan_8c.html#a74c89001ee57633be72bb126c49005f6">SV_Netchan_Transmit()</a>, <a class="el" href="../../df/d6f/sv__net__chan_8c.html#a96053c4ad11f3637b9a7d448df3a971d">SV_Netchan_TransmitNextFragment()</a>, and <a class="el" href="../../d3/da3/sv__snapshot_8c.html#aaf6d788d001638f029cfab34a9468ae8">SV_SendClientMessages()</a>.</p>
 
@@ -405,7 +415,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00224">224</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00225">225</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#a24c24af2f3de8bb057cfc826adf8ef64">Netchan_Transmit()</a>, and <a class="el" href="../../d1/df7/qcommon_8h.html#a230ca68c200b74a3299fd194e5ae6192">Netchan_TransmitNextFragment()</a>.</p>
 
@@ -423,7 +433,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00225">225</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df7/qcommon_8h_source.html#l00226">226</a> of file <a class="el" href="../../d1/df7/qcommon_8h_source.html">qcommon.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/df7/qcommon_8h.html#a24c24af2f3de8bb057cfc826adf8ef64">Netchan_Transmit()</a>, and <a class="el" href="../../d1/df7/qcommon_8h.html#a230ca68c200b74a3299fd194e5ae6192">Netchan_TransmitNextFragment()</a>.</p>
 
